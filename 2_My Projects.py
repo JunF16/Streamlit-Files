@@ -1,9 +1,7 @@
 import streamlit as st
 
-st.title("My Projects")
-
 # Projects
-with set.container():
+with st.container():
     st.write("---")
     st.header("My Projects")
     st.write("##")
