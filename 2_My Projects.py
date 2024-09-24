@@ -1,4 +1,8 @@
+from PIL import Image
 import streamlit as st
+
+# Load Assets
+img_Cert_1 = Image.open(r"C:\Users\Acer\Streamlit Files\images\Revit MEP.png")
 
 # Projects
 with st.container():
@@ -8,12 +12,12 @@ with st.container():
     image_column, text_column = st.columns((1,2))
     
 with image_column:
-        # insert image
-     with text_column:
-        st.subheader("1st Project Placeholder")
-        st.write(
-            """
-            Project description
-            """
+    st.image(img_Cert_1)
+with text_column:
+    st.subheader("1st Project Placeholder")
+    st.write(
+        """
+         Project description
+        """
         )
-        st.markdown("[Learn from here...](Insert link here)")
+    st.markdown("[Learn from here...](Insert link here)")

@@ -21,11 +21,11 @@ with st.container():
             
             What you'll see on this web page:
 
-               -My 2D and 3D renders from Solidworks, Revit and AutoCAD
+               •My 2D and 3D renders from Solidworks, Revit and AutoCAD
 
-               -Various practice files I found from Youtube
+               •Various practice files I found from Youtube
 
-               -Posts from social medias about Mechanical Engineering
+               •Posts from social medias about Mechanical Engineering
             
             Hope you'll enjoy your visit here!
             """
