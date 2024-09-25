@@ -42,7 +42,7 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    st.write("casugajohnmark@gmail.com")
+    st.write("Contact me at: casugajohnmark@gmail.com")
 
 # Social links title
 st.write("---")
@@ -59,7 +59,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 # About this page
 st.write("---")
 st.write("#")
-st.subheader("About this web page")
+st.subheader("ℹ [About this web page]")
 st.write(
    """
             I created this web page to share my progress in learning various tools in 2D and 3D CAD modelling softwares. 
@@ -67,11 +67,11 @@ st.write(
 
             What you'll see on this web page:
 
-               • My 2D and 3D renders from Solidworks, Revit and AutoCAD
+               ⚙ My 2D and 3D renders from Solidworks, Revit and AutoCAD
 
-               • Various practice files I found from Youtube
+               ⚙ Various practice files I found from Youtube
 
-               • Posts from social medias about Mechanical Engineering
+               ⚙ Posts from social medias about Mechanical Engineering
             
             Hope you'll enjoy your visit here!
             """

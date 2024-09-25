@@ -47,7 +47,7 @@ with col2:
         file_name=resume_file.name,
         mime="application/octet-stream",
     )
-    st.write("casugajohnmark@gmail.com")
+    st.write("Contact me at:casugajohnmark@gmail.com")
 
 # Social links
 st.write("#")
@@ -57,7 +57,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 # Experience and Certifications -add link from web page
 st.write("#")
-st.subheader("Certifications")
+st.subheader("Qualifications")
 st.write(
     """
 •Passed the February 2024 Mechanical Engineering Board Exam

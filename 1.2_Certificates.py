@@ -2,12 +2,12 @@ import streamlit as st
 from PIL import Image
 
 # Load Assets
-img_Cert_1 = Image.open(r"C:\Users\Acer\Streamlit Files\images\REVIT MEP.png")
-img_Cert_2 = Image.open(r"C:\Users\Acer\Streamlit Files\images\AutoCAD.png")
-img_Cert_3 = Image.open(r"C:\Users\Acer\Streamlit Files\images\M365F.png")
-img_Cert_4 = Image.open(r"C:\Users\Acer\Streamlit Files\images\GPM.png")
-img_Cert_5 = Image.open(r"C:\Users\Acer\Streamlit Files\images\COSH.png")
-img_Cert_6 = Image.open(r"C:\Users\Acer\Streamlit Files\images\BOSH.png")
+img_Cert_1 = Image.open(r"C:\Users\Acer\Streamlit Files\images\Certs\REVIT MEP.png")
+img_Cert_2 = Image.open(r"C:\Users\Acer\Streamlit Files\images\Certs\AutoCAD.png")
+img_Cert_3 = Image.open(r"C:\Users\Acer\Streamlit Files\images\Certs\M365F.png")
+img_Cert_4 = Image.open(r"C:\Users\Acer\Streamlit Files\images\Certs\GPM.png")
+img_Cert_5 = Image.open(r"C:\Users\Acer\Streamlit Files\images\Certs\COSH.png")
+img_Cert_6 = Image.open(r"C:\Users\Acer\Streamlit Files\images\Certs\BOSH.png")
 
 # Projects
 with st.container():
@@ -73,7 +73,7 @@ with text_column:
     st.subheader("Google Project Management")
     st.write(
         """
-         Date Finished: 18 APril 2024
+         Date Finished: 18 April 2024
         """
         )
     st.markdown("[Learn from here...](https://www.coursera.org/professional-certificates/google-project-management#courses)")
@@ -107,7 +107,7 @@ with text_column:
     st.subheader("Basic Occupational Safety and Health")
     st.write(
         """
-         Date Finished: 26 June 2024
+         Date Finished: 26 June 2022
         """
         )
     st.markdown("[Learn from here...](https://web.facebook.com/BECMISafety/?_rdc=1&_rdr)")
