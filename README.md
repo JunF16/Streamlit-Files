@@ -6,7 +6,9 @@ Please do not misuse any information made public on this web page.
 
 --------------------------------------
 Requirements:
-Pyhton = 3.10.6
+
+Python = 3.10.6
+
 Streamlit = 1.38.0
 
 --------------------------------------
