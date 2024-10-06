@@ -2,12 +2,12 @@ import streamlit as st
 from PIL import Image
 
 # Load Assets
-img_Cert_1 = Image.open("images\Certs\REVIT MEP.png")
-img_Cert_2 = Image.open("images\Certs\AutoCAD.png")
-img_Cert_3 = Image.open("images\Certs\M365F.png")
-img_Cert_4 = Image.open("images\Certs\GPM.png")
-img_Cert_5 = Image.open("images\Certs\COSH.png")
-img_Cert_6 = Image.open("images\Certs\BOSH.png")
+img_Cert_1 = Image.open(r"images/Certs/REVIT MEP.png")
+img_Cert_2 = Image.open(r"images/Certs/AutoCAD.png")
+img_Cert_3 = Image.open(r"images/Certs/M365F.png")
+img_Cert_4 = Image.open(r"images/Certs/GPM.png")
+img_Cert_5 = Image.open(r"images/Certs/COSH.png")
+img_Cert_6 = Image.open(r"images/Certs/BOSH.png")
 
 # Projects
 with st.container():
