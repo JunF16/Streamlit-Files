@@ -1,5 +1,5 @@
 import streamlit as st
-# import os
+import os
 
 # cwd = os.getcwd()  # Get the current working directory (cwd)
 # files = os.listdir(cwd)  # Get all the files in that directory
@@ -48,7 +48,6 @@ pg = st.navigation(
 )
 
 # Shared assets
-st.logo("assets/gear.png")
 st.sidebar.text("Made by yours truly ❤ ")
 
 # Run navigation

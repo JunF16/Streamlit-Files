@@ -2,8 +2,8 @@ from PIL import Image
 import streamlit as st
 
 # Load Assets
-img_Cert_1 = Image.open("images\Revit\2 Storey House.png")
-img_Cert_2 = Image.open("images\Revit\S15 Revit.png")
+img_Cert_1 = Image.open("images\Revit/2 Storey House.png")
+img_Cert_2 = Image.open("images\Revit/S15 Revit.png")
 
 # Projects (add above succeeding project)
 with st.container():
