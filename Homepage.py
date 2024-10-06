@@ -48,7 +48,7 @@ pg = st.navigation(
 )
 
 # Shared assets
-st.logo(r"C:\Users\Acer\Streamlit Files\assets\gear.png")
+st.logo("assets/gear.png")
 st.sidebar.text("Made by yours truly ❤ ")
 
 # Run navigation
