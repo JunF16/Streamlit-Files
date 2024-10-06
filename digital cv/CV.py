@@ -5,9 +5,9 @@ from PIL import Image
 
 # Path settings
 current_dir = Path(_file_).parent if "_file_" in locals() else Path.cwd()
-css_file = current_dir / r"C:\Users\Acer\Streamlit Files\digital cv\styles" / "main.css"
-resume_file = current_dir / r"C:\Users\Acer\Streamlit Files\digital cv\assets" / "CV.pdf"
-profile_pic = current_dir / r"C:\Users\Acer\Streamlit Files\digital cv\assets" / "profile-pic.jpg"
+css_file = current_dir / "digital cv\styles" / "main.css"
+resume_file = current_dir /"assets" / "CV.pdf"
+profile_pic = current_dir / "assets" / "profile-pic.jpg"
 
 # General settings
 PAGE_TITLE = "Digital CV | John Mark Casuga"
