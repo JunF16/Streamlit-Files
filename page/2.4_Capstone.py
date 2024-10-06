@@ -1,14 +1,15 @@
 from PIL import Image
 import streamlit as st
+from pathlib import Path
 
 # Load Assets
 current_dir = Path(_file_).parent if "_file_" in locals() else Path.cwd()
-img_Cert_1 = Image.open("Streamlit FIles/images/Capstone/Exploded.png")
-img_Cert_2 = Image.open("Streamlit FIles/images/Capstone/Front n Rear.png")
-img_Cert_3 = Image.open("Streamlit FIles/images/Capstone/Iso View.png")
-img_Cert_4 = Image.open("Streamlit FIles/images/Capstone/Side View.png")
-img_Cert_5 = Image.open("Streamlit FIles/images/Capstone/Top View.png")
-img_Cert_6 = Image.open("Streamlit FIles/images/Capstone/WAS.png")
+img_Cert_1 = Image.open("images/Capstone/Exploded.png")
+img_Cert_2 = Image.open("images/Capstone/Front n Rear.png")
+img_Cert_3 = Image.open("images/Capstone/Iso View.png")
+img_Cert_4 = Image.open("images/Capstone/Side View.png")
+img_Cert_5 = Image.open("images/Capstone/Top View.png")
+img_Cert_6 = Image.open("images/Capstone/WAS.png")
 
 # Projects (add above succeeding project)
 with st.container():
