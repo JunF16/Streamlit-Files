@@ -4,7 +4,7 @@ from pathlib import Path
 
 # Load Assets
 current_dir = Path(_file_).parent if "_file_" in locals() else Path.cwd()
-img_Cert_1 = Image.open("images/Solidworks/Ex 223.png")
+img_Cert_1 = Image.open("images/Solidworks/Ex 223.PNG")
 
 # Projects (add above succeeding project)
 with st.container():

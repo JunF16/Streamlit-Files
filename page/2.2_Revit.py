@@ -4,8 +4,8 @@ from pathlib import Path
 
 # Load Assets
 current_dir = Path(_file_).parent if "_file_" in locals() else Path.cwd()
-img_Cert_1 = Image.open("images/Revit/2 Storey House.png")
-img_Cert_2 = Image.open("images/Revit/S15 Revit.png")
+img_Cert_1 = Image.open("images/Revit/2 Storey House.PNG")
+img_Cert_2 = Image.open("images/Revit/S15 Revit.PNG")
 
 # Projects (add above succeeding project)
 with st.container():

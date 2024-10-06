@@ -4,8 +4,8 @@ from pathlib import Path
 
 # Load Assets
 current_dir = Path(_file_).parent if "_file_" in locals() else Path.cwd()
-img_Cert_1 = Image.open("images/AutoCAD images/SourceCAD AutoCAD 2D 1.png")
-img_Cert_2 = Image.open("images/AutoCAD images/SourceCAD AutoCAD 3D 1.png")
+img_Cert_1 = Image.open("images/AutoCAD images/SourceCAD AutoCAD 2D 1.PNG")
+img_Cert_2 = Image.open("images/AutoCAD images/SourceCAD AutoCAD 3D 1.PNG")
 
 # Projects (add above succeeding project)
 with st.container():

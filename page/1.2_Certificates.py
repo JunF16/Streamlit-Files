@@ -4,12 +4,12 @@ from pathlib import Path
 
 # Load Assets
 current_dir = Path(_file_).parent if "_file_" in locals() else Path.cwd()
-img_Cert_1 = Image.open("images/Certs/REVIT MEP.png")
-img_Cert_2 = Image.open("images/Certs/AutoCAD.png")
-img_Cert_3 = Image.open("images/Certs/M365F.png")
-img_Cert_4 = Image.open("images/Certs/GPM.png")
-img_Cert_5 = Image.open("images/Certs/COSH.png")
-img_Cert_6 = Image.open("images/Certs/BOSH.png")
+img_Cert_1 = Image.open("images/Certs/REVIT MEP.PNG")
+img_Cert_2 = Image.open("images/Certs/AutoCAD.PNG")
+img_Cert_3 = Image.open("images/Certs/M365F.PNG")
+img_Cert_4 = Image.open("images/Certs/GPM.PNG")
+img_Cert_5 = Image.open("images/Certs/COSH.PNG")
+img_Cert_6 = Image.open("images/Certs/BOSH.PNG")
 
 # Projects
 with st.container():
