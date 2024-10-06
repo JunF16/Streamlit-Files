@@ -7,32 +7,32 @@ import os
 
 # Page setup
 about_page = st.Page(
-    page="pages/1.1_About me.py",
+    page="page/1.1_About me.py",
     title="About Me",
     default=True,
 )
 project_1_page = st.Page(
-    page="pages/1.2_Certificates.py",
+    page="page/1.2_Certificates.py",
     title="Certifications",
 )
 project_2_page = st.Page(
-    page="pages/2.1_AutoCAD.py",
+    page="page/2.1_AutoCAD.py",
     title="AutoCAD",
 )
 project_3_page = st.Page(
-    page="pages/2.2_Revit.py",
+    page="page/2.2_Revit.py",
     title="Revit"
 )
 project_4_page = st.Page(
-    page="pages/2.3_Solidworks.py",
+    page="page/2.3_Solidworks.py",
     title="Solidworks",
 )
 project_5_page = st.Page(
-    page="pages/2.4_Capstone.py",
+    page="page/2.4_Capstone.py",
     title="Capstone",
 )
 project_6_page = st.Page(
-    page="pages/2.5_Inventor.py",
+    page="page/2.5_Inventor.py",
     title="Inventor"
 )
 
