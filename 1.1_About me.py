@@ -59,7 +59,7 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 # About this page
 st.write("---")
 st.write("#")
-st.subheader("ℹ [About this web page]")
+st.subheader("ℹ About this web page")
 st.write(
    """
             I created this web page to share my progress in learning various tools in 2D and 3D CAD modelling softwares. 
@@ -67,11 +67,11 @@ st.write(
 
             What you'll see on this web page:
 
-               ⚙ My 2D and 3D renders from Solidworks, Revit and AutoCAD
+               ⚙ 2D and 3D renders from various CAD softwares
 
-               ⚙ Various practice files I found from Youtube
+               ⚙ Tutorial videos found from Youtube
 
-               ⚙ Posts from social medias about Mechanical Engineering
+               ⚙ Relevant online courses
             
             Hope you'll enjoy your visit here!
             """

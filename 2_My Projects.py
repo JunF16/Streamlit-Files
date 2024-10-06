@@ -2,7 +2,7 @@ from PIL import Image
 import streamlit as st
 
 # Load Assets
-img_Cert_1 = Image.open(r"C:\Users\Acer\Streamlit Files\images\Revit MEP.png")
+img_Cert_1 = Image.open(r"C:\Users\Acer\Streamlit Files\images")
 
 # Projects
 with st.container():

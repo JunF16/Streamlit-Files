@@ -21,7 +21,7 @@ with text_column:
         Revit MEP Practice for Bungalow
         """
         )
-    st.markdown("[Learn from here...](Insert link here)")
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=Oyj1CL74svY&list=PL6ZitbPhhYsTOhWF0aawbcdXJV589TQFL&index=10)")
 
 with st.container():
     st.write("---")
@@ -38,4 +38,4 @@ with text_column:
         Revit MEP Practice for 2 Storey House
         """
         )
-    st.markdown("[Learn from here...](Insert link here)")
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=YCfAYsVAFug&list=PL6ZitbPhhYsTOhWF0aawbcdXJV589TQFL&index=6)")

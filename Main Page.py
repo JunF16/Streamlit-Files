@@ -13,7 +13,7 @@ about_page = st.Page(
 )
 project_1_page = st.Page(
     page=r"C:\Users\Acer\Streamlit Files\1.2_Certificates.py",
-    title="Certificates",
+    title="Certifications",
 )
 project_2_page = st.Page(
     page=r"C:\Users\Acer\Streamlit Files\2.1_AutoCAD.py",
@@ -31,6 +31,10 @@ project_5_page = st.Page(
     page=r"C:\Users\Acer\Streamlit Files\2.4_Capstone.py",
     title="Capstone",
 )
+project_6_page = st.Page(
+    page=r"C:\Users\Acer\Streamlit Files\2.5_Inventor.py",
+    title="Inventor"
+)
 
 # Navigation setup without sections
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
@@ -39,7 +43,7 @@ project_5_page = st.Page(
 pg = st.navigation(
     {
         "Info": [about_page, project_1_page],
-        "Projects": [project_2_page, project_3_page, project_4_page, project_5_page],
+        "Projects": [project_2_page, project_5_page, project_6_page, project_3_page, project_4_page],
     }
 )
 

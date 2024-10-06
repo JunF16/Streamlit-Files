@@ -66,11 +66,11 @@ with st.container():
             
             What you'll see on this web page:
 
-               -My 2D and 3D renders from Solidworks, Revit and AutoCAD
+               -2D and 3D renders from various CAD softwares
 
-               -Various practice files I found from Youtube
+               -Tutorial videos found from Youtube
 
-               -Posts from social medias about Mechanical Engineering
+               -Relevant online courses from various websites
             
             Hope you'll enjoy your visit here!
             """

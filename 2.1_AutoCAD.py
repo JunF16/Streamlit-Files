@@ -21,7 +21,7 @@ with text_column:
          AutoCAD practice from SourceCAD
         """
         )
-    st.markdown("[Learn from here...](Insert link here)")
+    st.markdown("[Learn from here...](https://www.youtube.com/playlist?list=PLcH1MIEuSvoH55AygdATks6ZX6dYO2kzA)")
 
 with st.container():
     st.write("---")
@@ -38,4 +38,4 @@ with text_column:
          AutoCAD practice from SourceCAD
         """
         )
-    st.markdown("[Learn from here...](Insert link here)")
+    st.markdown("[Learn from here...](https://www.youtube.com/playlist?list=PLcH1MIEuSvoGT7bY9_W1QseB8gxsyZSJP)")
