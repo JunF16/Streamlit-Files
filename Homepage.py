@@ -1,120 +1,55 @@
-import requests
 import streamlit as st
+# import os
 
-# 1 as sidebar menu --> as sidebar with message if selected
-# with st.sidebar:
-    # selected = option_menu(
-    #     menu_title="Main Menu",
-    #     options=["Home", "Projects", "Contact"],
-    #     default_index=0,
-    #     orientation="horizontal",
-    # )
+# cwd = os.getcwd()  # Get the current working directory (cwd)
+# files = os.listdir(cwd)  # Get all the files in that directory
+# print("Files in %r: %s" % (cwd, files))
 
-# if selected == "Home":
-#     st.title(f"You have selected {selected}")
-# if selected == "Projects":
-#     st.title(f"You have selected {selected}")
-# if selected =="Contact":
-#     st.title(f"You have selected {selected}")
-
-#Page Setup
+# Page setup
 about_page = st.Page(
-    page=r"C:\Users\Acer\Streamlit Files\Homepage.py",
-    title="About me",
+    page="pages/1.1_About me.py",
+    title="About Me",
     default=True,
 )
-My_Projects = st.Page(
-    page=r"C:\Users\Acer\Streamlit Files\2_My Projects.py",
-    title="My Projects",
+project_1_page = st.Page(
+    page="pages/1.2_Certificates.py",
+    title="Certifications",
 )
-Contact = st.Page(
-    page=r"C:\Users\Acer\Streamlit Files\3_Contact.py",
-    title="Contact",
+project_2_page = st.Page(
+    page="pages/2.1_AutoCAD.py",
+    title="AutoCAD",
+)
+project_3_page = st.Page(
+    page="pages/2.2_Revit.py",
+    title="Revit"
+)
+project_4_page = st.Page(
+    page="pages/2.3_Solidworks.py",
+    title="Solidworks",
+)
+project_5_page = st.Page(
+    page="pages/2.4_Capstone.py",
+    title="Capstone",
+)
+project_6_page = st.Page(
+    page="pages/2.5_Inventor.py",
+    title="Inventor"
 )
 
-# Navigation setup
-pg = st.navigation(pages=[My_Projects, Contact])
+# Navigation setup without sections
+# pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
+
+# Navigation setup with sections
+pg = st.navigation(
+    {
+        "Info": [about_page, project_1_page],
+        "Projects": [project_2_page, project_5_page, project_6_page, project_3_page, project_4_page],
+    }
+)
+
+# Shared assets
+st.logo(r"C:\Users\Acer\Streamlit Files\assets\gear.png")
+st.sidebar.text("Made by yours truly ❤ ")
 
 # Run navigation
 pg.run()
-
-#Load Assets
-
-# Use Local CSS, this function takes a file name as an argument w/a html style
-def local_css(file_name):
-    with open(file_name) as f:
-        st.markdown(f"<style>{f.read()}</style", unsafe_allow_html=True)
-
-local_css(r"C:\Users\Acer\Streamlit Files\styles\style.css")
-
-# Header Section
-st.subheader("Hello, I am John Mark Casuga.")
-st.title("A Registered Mechanical Engineer from the Philippines")
-st.write("A web page dedicated to showcase my passion in all things related to Mechanical Engineering.")
-st.write("[Learn more about me >](https://ph.linkedin.com/in/john-mark-casuga-rmee)")
-
-with st.container():
-    st.write("---")
-    left_column, right_column = st.columns(2)
-    with left_column:
-        st.header("What to expect on my web page")
-        st.write("##")
-        st.write(
-            """
-            I created this web page to share my progress in learning various tools in 2D and 3D CAD modelling software such as Solidworks, Revit and Autodesk. 
-            I also post practice files I found interesting on Youtube which may include tutorials on various softwares.
-            
-            What you'll see on this web page:
-
-               -2D and 3D renders from various CAD softwares
-
-               -Tutorial videos found from Youtube
-
-               -Relevant online courses from various websites
-            
-            Hope you'll enjoy your visit here!
-            """
-        )
-        
-# Projects
-with st.container():
-    st.write("---")
-    st.header("My Projects")
-    st.write("##")
-    image_column, text_column = st.columns((1,2))
-    
-with image_column:
-        # insert image
-     with text_column:
-        st.subheader("1st Project Placeholder")
-        st.write(
-            """
-            Project description
-            """
-        )
-        st.markdown("[Learn from here...](Insert link here)")
-
-# Contact form
-with st.container():
-    st.write("---")
-    st.header("Got any suggestions?")
-    st.write("##")
-
-# Documentation: https://formsubmit.co/ !Change email address!, set captcha to True later(removed)
-contact_form = """
-<form method="POST" action="https://formsubmit.co/junfontanos16@gmail.com">
-    <input type="text" name="name" placeholder="Your name(optional)" required>
-    <input type="email" name="email" placeholder="Your email(optional)" required>
-    <textarea name="message" placeholder="Your message here(optional)" required></textarea>
-    <button type="submit">Send</button>
-</form>
-"""
-left_column, right_column = st.columns(2)
-with left_column:
-    st.markdown(contact_form, unsafe_allow_html=True)
-with right_column:
-    st.empty()
-
-
-
-
