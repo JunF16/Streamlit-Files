@@ -9,7 +9,7 @@ img_Cert_2 = Image.open("images/Capstone/Front n Rear.PNG")
 img_Cert_3 = Image.open("images/Capstone/Iso View.PNG")
 img_Cert_4 = Image.open("images/Capstone/Side View.PNG")
 img_Cert_5 = Image.open("images/Capstone/Top View.PNG")
-img_Cert_6 = Image.open("images/Capstone/WAS.PNG")
+img_Cert_6 = Image.open("images/Capstone/WAS.png")
 
 # Projects (add above succeeding project)
 with st.container():
