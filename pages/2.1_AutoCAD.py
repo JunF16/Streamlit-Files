@@ -2,8 +2,8 @@ from PIL import Image
 import streamlit as st
 
 # Load Assets
-img_Cert_1 = Image.open(r"images/AutoCAD images/SourceCAD AutoCAD 2D 1.png")
-img_Cert_2 = Image.open(r"images/AutoCAD images/SourceCAD AutoCAD 3D 1.png")
+img_Cert_1 = Image.open("images/AutoCAD images/SourceCAD AutoCAD 2D 1.png")
+img_Cert_2 = Image.open("images/AutoCAD images/SourceCAD AutoCAD 3D 1.png")
 
 # Projects (add above succeeding project)
 with st.container():

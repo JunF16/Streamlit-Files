@@ -2,12 +2,12 @@ from PIL import Image
 import streamlit as st
 
 # Load Assets
-img_Cert_1 = Image.open(r"images/Capstone/Exploded.png")
-img_Cert_2 = Image.open(r"images/Capstone/Front n Rear.png")
-img_Cert_3 = Image.open(r"images/Capstone/Iso View.png")
-img_Cert_4 = Image.open(r"images/Capstone/Side View.png")
-img_Cert_5 = Image.open(r"images/Capstone/Top View.png")
-img_Cert_6 = Image.open(r"images/Capstone/WAS.png")
+img_Cert_1 = Image.open("images/Capstone/Exploded.png")
+img_Cert_2 = Image.open("images/Capstone/Front n Rear.png")
+img_Cert_3 = Image.open("images/Capstone/Iso View.png")
+img_Cert_4 = Image.open("images/Capstone/Side View.png")
+img_Cert_5 = Image.open("images/Capstone/Top View.png")
+img_Cert_6 = Image.open("images/Capstone/WAS.png")
 
 # Projects (add above succeeding project)
 with st.container():
