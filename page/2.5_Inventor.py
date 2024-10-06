@@ -2,7 +2,8 @@ from PIL import Image
 import streamlit as st
 
 # Load Assets
-img_Cert_1 = Image.open("images/Inventor/MAHTABALAM 1.png")
+current_dir = Path(_file_).parent if "_file_" in locals() else Path.cwd()
+img_Cert_1 = Image.open("Streamlit FIles/images/Inventor/MAHTABALAM 1.png")
 
 # Projects
 with st.container():

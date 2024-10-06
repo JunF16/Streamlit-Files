@@ -2,7 +2,8 @@ from PIL import Image
 import streamlit as st
 
 # Load Assets
-img_Cert_1 = Image.open("images/Solidworks/Ex 223.png")
+current_dir = Path(_file_).parent if "_file_" in locals() else Path.cwd()
+img_Cert_1 = Image.open("Streamlit FIles/images/Solidworks/Ex 223.png")
 
 # Projects (add above succeeding project)
 with st.container():
