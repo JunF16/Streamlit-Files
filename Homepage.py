@@ -48,6 +48,7 @@ pg = st.navigation(
 )
 
 # Shared assets
+st.logo("assets/gear.png")
 st.sidebar.text("Made by yours truly ❤ ")
 
 # Run navigation
