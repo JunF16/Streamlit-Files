@@ -19,7 +19,7 @@ with text_column:
     st.subheader("Solidworks 3D model")
     st.write(
         """
-         Solidworks practice from (Insert author)
+         Solidworks practice from MAHTABALAM
         """
         )
-    st.markdown("[Learn from here...](Insert link here)")
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=fFZTvQjRnyY)")
