@@ -17,10 +17,10 @@ with st.container():
 with image_column:
     st.image(img_Cert_2)
 with text_column:
-    st.subheader("S15 Studio Bungalow")
+    st.subheader("Studio Bungalow")
     st.write(
         """
-        Revit MEP Practice for Bungalow
+        Revit MEP Practice from S15 Studio
         """
         )
     st.markdown("[Learn from here...](https://www.youtube.com/watch?v=Oyj1CL74svY&list=PL6ZitbPhhYsTOhWF0aawbcdXJV589TQFL&index=10)")
@@ -37,7 +37,7 @@ with text_column:
     st.subheader("2 Storey House")
     st.write(
         """
-        Revit MEP Practice for 2 Storey House
+        Revit MEP Practice from Renato Roxas Jr.
         """
         )
     st.markdown("[Learn from here...](https://www.youtube.com/watch?v=YCfAYsVAFug&list=PL6ZitbPhhYsTOhWF0aawbcdXJV589TQFL&index=6)")
