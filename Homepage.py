@@ -47,6 +47,12 @@ pg = st.navigation(
     }
 )
 
+# Load your audio file
+audio_file = "audio/Nuvolebianche.ogg"
+
+# Display the audio player
+st.audio(audio_file, loop=True, autoplay=True)
+
 # Shared assets
 st.logo("assets/gear.png")
 st.sidebar.text("Made by yours truly ❤ ")

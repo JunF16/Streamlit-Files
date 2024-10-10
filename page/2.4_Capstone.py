@@ -21,7 +21,7 @@ with st.container():
 with image_column:
     st.image(img_Cert_6)
 with text_column:
-    st.subheader("3D Model of Capstone Project")
+    st.subheader("3D Model using Blender")
    
 with st.container():
     st.write("---")
