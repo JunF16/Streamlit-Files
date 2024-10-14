@@ -2,15 +2,34 @@ from PIL import Image
 import streamlit as st
 from pathlib import Path
 
-# Load Assets
+# Load Assets (for vids: change video_bytes&st.video numbering)
 current_dir = Path(_file_).parent if "_file_" in locals() else Path.cwd()
 img_Cert_1 = Image.open("images/Inventor/MAHTABALAM 1.PNG")
 img_Cert_2 = Image.open("images/Inventor/MAHTABALAM 2.PNG")
-video_file = open("videos/Fidget Spinner.mp4","rb")
+video_file_1 = open("videos/Fidget Spinner.mp4","rb")
 img_Cert_3 = Image.open("images/Inventor/MAHTABALAM 3.PNG")
 img_Cert_4 = Image.open("images/Inventor/MAHTABALAM 4.PNG")
+video_file_2 = open("videos/QRM.mp4","rb") 
 
 # Projects (add above succeeding projects)
+with st.container():
+    st.write("---")
+    st.header("Autodesk Inventor practice 6")
+    st.write("##")
+    video_column, text_column = st.columns((1,2))
+    
+with video_column:
+    video_bytes = video_file_2.read()
+    st.video(video_file_2)
+with text_column:
+    st.subheader("Quick Return Mechanism")
+    st.write(
+        """
+         Inventor Practice from CADemist
+        """
+        )
+    st.markdown("[Learn from here...]()")
+
 with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 5")
@@ -35,8 +54,8 @@ with st.container():
     video_column, text_column = st.columns((1,2))
     
 with video_column:
-    video_bytes = video_file.read()
-    st.video(video_file)
+    video_bytes = video_file_1.read()
+    st.video(video_file_1)
 with text_column:
     st.subheader("Fidget Spinner")
     st.write(
