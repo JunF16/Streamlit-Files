@@ -10,8 +10,27 @@ video_file_1 = open("videos/Fidget Spinner.mp4","rb")
 img_Cert_3 = Image.open("images/Inventor/MAHTABALAM 3.PNG")
 img_Cert_4 = Image.open("images/Inventor/MAHTABALAM 4.PNG")
 video_file_2 = open("videos/QRM.mp4","rb") 
+video_file_3 = open("videos/Ball Bearing.mp4","rb")
 
 # Projects (add above succeeding projects)
+with st.container():
+    st.write("---")
+    st.header("Autodesk Inventor practice 7")
+    st.write("##")
+    video_column, text_column = st.columns((1,2))
+    
+with video_column:
+    video_bytes = video_file_3.read()
+    st.video(video_file_3)
+with text_column:
+    st.subheader("Ball Bearing")
+    st.write(
+        """
+         Inventor Practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/playlist?list=PLRhna5_X7uWvjFID3uU0vKxpiuw8XvF35)")
+
 with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 6")
@@ -28,7 +47,7 @@ with text_column:
          Inventor Practice from CADemist
         """
         )
-    st.markdown("[Learn from here...]()")
+    st.markdown("[Learn from here...](https://www.youtube.com/@cademist)")
 
 with st.container():
     st.write("---")
