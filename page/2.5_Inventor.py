@@ -11,8 +11,27 @@ img_Cert_3 = Image.open("images/Inventor/MAHTABALAM 3.PNG")
 img_Cert_4 = Image.open("images/Inventor/MAHTABALAM 4.PNG")
 video_file_2 = open("videos/QRM.mp4","rb") 
 video_file_3 = open("videos/Ball Bearing.mp4","rb")
+video_file_4 = open("videos/Arbor Press.mp4", "rb")
 
 # Projects (add above succeeding projects)
+with st.container():
+    st.write("---")
+    st.header("Autodesk Inventor practice 8")
+    st.write("##")
+    video_column, text_column = st.columns((1,2))
+    
+with video_column:
+    video_bytes = video_file_4.read()
+    st.video(video_file_4)
+with text_column:
+    st.subheader("Arbor Press")
+    st.write(
+        """
+         Inventor Practice from 3D Parametric Solid Model Drawing
+        """
+        )
+    st.markdown("[Learn from here...]()")
+
 with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 7")
