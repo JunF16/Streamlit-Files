@@ -30,7 +30,7 @@ with text_column:
          Inventor Practice from 3D Parametric Solid Model Drawing
         """
         )
-    st.markdown("[Learn from here...]()")
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=H9XeTY5CNQw)")
 
 with st.container():
     st.write("---")
