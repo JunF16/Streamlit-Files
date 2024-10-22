@@ -10,8 +10,62 @@ img_Cert_3 = Image.open("images/Certs/M365F.PNG")
 img_Cert_4 = Image.open("images/Certs/GPM.PNG")
 img_Cert_5 = Image.open("images/Certs/COSH.PNG")
 img_Cert_6 = Image.open("images/Certs/BOSH.PNG")
+img_Cert_7 = Image.open("images/Certs/COC_ConEst.PNG")
+img_Cert_8 = Image.open("images/Certs/COC_SnH.PNG")
+img_Cert_9 = Image.open("images/Certs/COC_Read.PNG")
 
 # Projects
+with st.container():
+    st.write("---")
+    st.header("Certificate #9")
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+    
+with image_column:
+    st.image(img_Cert_9)
+with text_column:
+    st.subheader("Construction Management: Reading Civil Construction Drawings")
+    st.write(
+            """
+            Date Finished: 22 October 2024
+            """
+        )
+    st.markdown("[Learn from here...](https://www.linkedin.com/learning/construction-management-reading-civil-construction-drawings/start-your-construction-project-right)")
+
+with st.container():
+    st.write("---")
+    st.header("Certificate #8")
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+    
+with image_column:
+    st.image(img_Cert_8)
+with text_column:
+    st.subheader("Construction Management: Safety and Health")
+    st.write(
+            """
+            Date Finished: 16 October 2024
+            """
+        )
+    st.markdown("[Learn from here...](https://www.linkedin.com/learning/construction-management-safety-and-health/safety-is-everyone-s-job)")
+
+with st.container():
+    st.write("---")
+    st.header("Certificate #7")
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+    
+with image_column:
+    st.image(img_Cert_7)
+with text_column:
+    st.subheader("Construction Estimating")
+    st.write(
+            """
+            Date Finished: 08 October 2024
+            """
+        )
+    st.markdown("[Learn from here...](https://www.linkedin.com/learning/learning-construction-estimating-17283903/learn-construction-estimating-the-right-way)")
+
 with st.container():
     st.write("---")
     st.header("Certificate #6")
