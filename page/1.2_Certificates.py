@@ -10,7 +10,7 @@ img_Cert_3 = Image.open("images/Certs/M365F.PNG")
 img_Cert_4 = Image.open("images/Certs/GPM.PNG")
 img_Cert_5 = Image.open("images/Certs/COSH.PNG")
 img_Cert_6 = Image.open("images/Certs/BOSH.PNG")
-img_Cert_7 = Image.open("images/Certs/COC_ConEst.PNG")
+img_Cert_7 = Image.open("images/Certs/COC_ConsEst.PNG")
 img_Cert_8 = Image.open("images/Certs/COC_SnH.PNG")
 img_Cert_9 = Image.open("images/Certs/COC_Read.PNG")
 
