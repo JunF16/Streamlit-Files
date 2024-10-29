@@ -13,8 +13,26 @@ video_file_2 = open("videos/QRM.mp4","rb")
 video_file_3 = open("videos/Ball Bearing.mp4","rb")
 video_file_4 = open("videos/Arbor Press.mp4", "rb")
 img_Cert_5 = Image.open("images/Inventor/MAHTABALAM 5.PNG")
+img_Cert_6 = Image.open("images/Inventor/Spoon by 3D PSMD.PNG")
 
 # Projects (add above succeeding projects)
+with st.container():
+    st.write("---")
+    st.header("Autodesk Inventor practice 10")
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+    
+with image_column:
+    st.image(img_Cert_6)
+with text_column:
+    st.subheader("Inventor 3D Surface model object")
+    st.write(
+        """
+         Inventor practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=EdTqloG6UPs)")
+
 with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 9")
