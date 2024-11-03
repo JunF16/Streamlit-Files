@@ -14,8 +14,26 @@ video_file_3 = open("videos/Ball Bearing.mp4","rb")
 video_file_4 = open("videos/Arbor Press.mp4", "rb")
 img_Cert_5 = Image.open("images/Inventor/MAHTABALAM 5.PNG")
 img_Cert_6 = Image.open("images/Inventor/Spoon by 3D PSMD.PNG")
+img_Cert_7 = Image.open("images/Inventor/Caster Wheel.PNG")
 
 # Projects (add above succeeding projects)
+with st.container():
+    st.write("---")
+    st.header("Autodesk Inventor practice 11")
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+    
+with image_column:
+    st.image(img_Cert_7)
+with text_column:
+    st.subheader("Inventor 3D object")
+    st.write(
+        """
+         Inventor practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...]()")
+
 with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 10")
@@ -25,10 +43,10 @@ with st.container():
 with image_column:
     st.image(img_Cert_6)
 with text_column:
-    st.subheader("Inventor 3D Surface model object")
+    st.subheader("Caster Wheel")
     st.write(
         """
-         Inventor practice from MAHTABALAM
+         Inventor practice from Autodesk Inventor
         """
         )
     st.markdown("[Learn from here...](https://www.youtube.com/watch?v=EdTqloG6UPs)")
