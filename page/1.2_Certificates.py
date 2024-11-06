@@ -13,8 +13,26 @@ img_Cert_6 = Image.open("images/Certs/BOSH.PNG")
 img_Cert_7 = Image.open("images/Certs/COC_ConsEst.PNG")
 img_Cert_8 = Image.open("images/Certs/COC_SnH.PNG")
 img_Cert_9 = Image.open("images/Certs/COC_Read.PNG")
+img_Cert_10 = Image.open("images/Certs/COC_PnS.PNG")
 
 # Projects
+with st.container():
+    st.write("---")
+    st.header("Certificate #10")
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+    
+with image_column:
+    st.image(img_Cert_1)
+with text_column:
+    st.subheader("Construction Management: Planning and Scheduling")
+    st.write(
+            """
+            Date Finished: 29 October 2024
+            """
+        )
+    st.markdown("[Learn from here...](https://www.linkedin.com/learning/construction-management-planning-and-scheduling)")
+
 with st.container():
     st.write("---")
     st.header("Certificate #9")

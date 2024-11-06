@@ -62,8 +62,8 @@ st.write("#")
 st.subheader("ℹ About this web page")
 st.write(
    """
-            I created this web page to share my progress in learning various tools in 2D and 3D CAD modelling softwares. 
-            I also post practice files I found interesting on Youtube which may include tutorials.
+            I made this web page to share my progress in learning various tools in 2D and 3D CAD modelling softwares. 
+            I also share links of practice files I found interesting on Youtube which include tutorials.
 
             What you'll see on this web page:
 
