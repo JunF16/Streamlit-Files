@@ -23,7 +23,7 @@ with st.container():
     image_column, text_column = st.columns((1,2))
     
 with image_column:
-    st.image(img_Cert_1)
+    st.image(img_Cert_10)
 with text_column:
     st.subheader("Construction Management: Planning and Scheduling")
     st.write(
