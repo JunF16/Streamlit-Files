@@ -26,13 +26,13 @@ with st.container():
 with image_column:
     st.image(img_Cert_7)
 with text_column:
-    st.subheader("Inventor 3D object")
+    st.subheader("Caster Wheel")
     st.write(
         """
-         Inventor practice from MAHTABALAM
+         Inventor practice from Autodesk Inventor
         """
         )
-    st.markdown("[Learn from here...]()")
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=Ij94CGzbpBk)")
 
 with st.container():
     st.write("---")
@@ -43,7 +43,7 @@ with st.container():
 with image_column:
     st.image(img_Cert_6)
 with text_column:
-    st.subheader("Caster Wheel")
+    st.subheader("Metal Spoon")
     st.write(
         """
          Inventor practice from Autodesk Inventor
