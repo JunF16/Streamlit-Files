@@ -59,22 +59,26 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 # About this page
 st.write("---")
 st.write("#")
-st.subheader("ℹ About this web page")
-st.write(
-   """
-            I made this web page to share my progress in learning various tools in 2D and 3D CAD modelling softwares. 
-            I also share links of practice files I found interesting on Youtube which include tutorials.
+st.subheader("What's new on this web page?")
+custom_css = """
+<style>
+ul.custom-bullet-points {
+    list-style-type: cirlce; /* Change to other types like circle, disc, etc. */
+    color: white; /* Change bullet color */
+    font-size: 18px; /* Change font size */
+}
+</style>
+"""
+st.markdown(custom_css, unsafe_allow_html=True)
 
-            What you'll see on this web page:
-
-               ⚙ 2D and 3D renders from various CAD softwares
-
-               ⚙ Tutorial videos found from Youtube
-
-               ⚙ Relevant online courses
-            
-            Hope you'll enjoy your visit here!
-            """
-)
-
-
+#change bullet point contents every commit!
+st.markdown("""
+<ul class="custom-bullet-points">
+    <p>Added to Solidworks Page</p>
+        <ul>
+            <li>added Solidworks Practice #4</li>
+            <li>added Solidworks Practice #3</li>
+            <li>added Solidworks Practice #2</li>
+        </ul>
+</ul>
+""", unsafe_allow_html=True)
