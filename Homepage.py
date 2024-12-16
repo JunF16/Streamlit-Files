@@ -35,6 +35,11 @@ project_6_page = st.Page(
     page="page/2.5_Inventor.py",
     title="Inventor"
 )
+project_7_page = st.Page(
+    page="page/2.6_Blender Renders.py",
+    title="Blender Renders"
+)
+
 
 # Navigation setup without sections
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
@@ -43,7 +48,7 @@ project_6_page = st.Page(
 pg = st.navigation(
     {
         "Info": [about_page, project_1_page],
-        "Projects": [project_2_page, project_5_page, project_6_page, project_3_page, project_4_page],
+        "Projects": [project_2_page, project_7_page, project_5_page, project_6_page, project_3_page, project_4_page],
     }
 )
 
