@@ -1,6 +1,6 @@
 I created this web page as a portfolio/digital resume.
 
-Streamlit was used to streamline the process in creating this web page.
+Streamlit was used to streamline the process in creating this web page. (and copious amounts of ChatGPT)
 
 Please do not misuse any information made public on this web page.
 

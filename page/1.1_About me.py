@@ -1,6 +1,21 @@
 import streamlit as st
 from PIL import Image
 from pathlib import Path
+import datetime
+
+# Display current date and time
+current_datetime = datetime.datetime.now()
+st.write(f"Current date and time: {current_datetime}")
+
+# Get the day of the week (0 = Monday, 1 = Tuesday, ..., 6 = Sunday) 
+day_of_week = current_datetime.weekday() 
+
+# Map the day of the week to the day name 
+days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] 
+current_day = days[day_of_week] 
+
+# Display the current 
+st.write(f"Today is {current_day}")
 
 st.title("Hello there!")
 
@@ -74,11 +89,11 @@ st.markdown(custom_css, unsafe_allow_html=True)
 #change bullet point contents every commit!
 st.markdown("""
 <ul class="custom-bullet-points">
-    <p>Added to Solidworks Page</p>
+    <p>Added Blender Renders</p>
         <ul>
-            <li>added Solidworks Practice #4</li>
-            <li>added Solidworks Practice #3</li>
-            <li>added Solidworks Practice #2</li>
+            <li>added Blender Render 1</li>
+            <li></li>
+            <li></li>
         </ul>
 </ul>
 """, unsafe_allow_html=True)
