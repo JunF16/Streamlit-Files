@@ -39,6 +39,10 @@ project_7_page = st.Page(
     page="page/2.6_Blender Renders.py",
     title="Blender Renders"
 )
+project_8_page = st.Page(
+    page="page/2.7_Thonny Scripts.py",
+    title="Thonny Scripts"
+)
 
 
 # Navigation setup without sections
@@ -48,7 +52,7 @@ project_7_page = st.Page(
 pg = st.navigation(
     {
         "Info": [about_page, project_1_page],
-        "Projects": [project_2_page, project_7_page, project_5_page, project_6_page, project_3_page, project_4_page],
+        "Projects": [project_2_page, project_7_page, project_5_page, project_6_page, project_3_page, project_4_page, project_8_page],
     }
 )
 
