@@ -1,34 +1,7 @@
 import streamlit as st
-import matplotlib.pyplot as plt
 from th_scripts.random_story_generator import generate_story
 from th_scripts.convert_wind_speed import convert_wind_speed_to_kph 
 from th_scripts.pdrop_darcy_weisbach import calculate_pressure_drop
-
-st.title("Dynamic Plot Chart")
-
-# User input for data points
-num_points = st.number_input("Number of data points:", min_value=1, step=1)
-x_values = []
-y_values = []
-
-for i in range(num_points):
-    x = st.number_input(f"X value {i+1}:", key=f"x{i}")
-    y = st.number_input(f"Y value {i+1}:", key=f"y{i}")
-    x_values.append(x)
-    y_values.append(y)
-
-if st.button("Generate Plot"):
-    # Generate plot using Matplotlib
-    plt.figure(figsize=(10, 5))
-    plt.plot(x_values, y_values, marker='o')
-    plt.xlabel("X Values")
-    plt.ylabel("Y Values")
-    plt.title("User Input Plot")
-    plt.grid(True)
-
-    st.pyplot(plt)
-
-st.markdown("---")
 
 st.title("Pressure Drop using Darcy-Weisbach Equation")
 
