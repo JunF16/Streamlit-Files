@@ -1,57 +1,6 @@
 import streamlit as st
 from PIL import Image
 from pathlib import Path
-import datetime
-import pytz
-import requests
-from geopy.geocoders import Nominatim
-from geopy.exc import GeocoderTimedOut
-
-# Get the current datetime 
-current_datetime = datetime.datetime.now()
-
-# Get the day of the week (0 = Monday, 1 = Tuesday, ..., 6 = Sunday) 
-day_of_week = current_datetime.weekday() 
-
-# Map the day of the week to the day name 
-days = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"] 
-current_day = days[day_of_week] 
-
-# Display the current 
-st.write(f"Today is {current_day}")
-
-def get_user_timezone():
-    try:
-        # Get user's IP address
-        response = requests.get('https://ipinfo.io/json')
-        data = response.json()
-        location = data['loc'].split(',')
-        latitude = float(location[0])
-        longitude = float(location[1])
-
-        # Get timezone using latitude and longitude
-        geolocator = Nominatim(user_agent="timezone_locator")
-        location = geolocator.reverse((latitude, longitude), timeout=10)
-        timezone_str = location.raw['address']['timezone']
-        return timezone_str
-    except (requests.exceptions.RequestException, GeocoderTimedOut, KeyError) as e:
-        return 'UTC'  # Default to UTC if there's an error
-
-def main():
-    st.title("Current Date and Time")
-
-    # Get user's timezone
-    user_timezone_str = get_user_timezone()
-    user_timezone = pytz.timezone(user_timezone_str)
-
-    # Get current time in user's timezone
-    current_datetime = datetime.datetime.now(user_timezone)
-
-    # Display the current date and time
-    st.write(f"Current date and time ({user_timezone_str}): {current_datetime}")
-
-if __name__ == "__main__":
-    main()
 
 st.title("Hello there!")
 
