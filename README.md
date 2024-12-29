@@ -13,6 +13,7 @@ Streamlit = 1.38.0
 
 --------------------------------------
 References:
+- https://www.udemy.com/course/python-for-engineers-scientists-and-analysts/
 - https://github.com/Sven-Bo/personal-website-streamlit 
 - https://github.com/Sven-Bo/streamlit-navigation-menu 
 
