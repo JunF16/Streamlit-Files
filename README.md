@@ -11,6 +11,10 @@ Python = 3.10.6
 
 Streamlit = 1.38.0
 
+geographiclib = 2.0 
+
+geopy = 2.4.1
+
 --------------------------------------
 References:
 - https://www.udemy.com/course/python-for-engineers-scientists-and-analysts/
