@@ -3,6 +3,7 @@ import os
 import datetime
 import pytz
 import requests
+from timezonefinder import TimezoneFinder
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 
@@ -67,37 +68,52 @@ audio_file = "audio/Nuvolebianche.ogg"
 # Display the audio player
 st.audio(audio_file, loop=True, autoplay=True)
 
-def get_user_timezone():
+def get_user_location():
     try:
-        # Get user's IP address
+        # Get user's IP address and location data
         response = requests.get('https://ipinfo.io/json')
         data = response.json()
         location = data['loc'].split(',')
         latitude = float(location[0])
         longitude = float(location[1])
+        return latitude, longitude
+    except requests.exceptions.RequestException as e:
+        st.error(f"An error occurred: {e}")
+        return None
 
-        # Get timezone using latitude and longitude
-        geolocator = Nominatim(user_agent="timezone_locator")
-        location = geolocator.reverse((latitude, longitude), timeout=10)
-        timezone_str = location.raw['address']['timezone']
+def get_user_timezone(lat, lon):
+    try:
+        tf = TimezoneFinder()
+        timezone_str = tf.timezone_at(lat=lat, lng=lon)
+        if timezone_str is None:
+            timezone_str = 'UTC'  # Default to UTC if timezone is not found
         return timezone_str
-    except (requests.exceptions.RequestException, GeocoderTimedOut, KeyError) as e:
+    except Exception as e:
+        st.error(f"An error occurred: {e}")
         return 'UTC'  # Default to UTC if there's an error
 
 def main():
-  
-    # Get user's timezone
-    user_timezone_str = get_user_timezone()
-    user_timezone = pytz.timezone(user_timezone_str)
+    st.title("Current Date and Time")
 
-    # Get current time in user's timezone
-    current_datetime = datetime.datetime.now(user_timezone)
+    # Get user's location
+    location = get_user_location()
+    if location:
+        latitude, longitude = location
+        # Get user's timezone
+        user_timezone_str = get_user_timezone(latitude, longitude)
+        user_timezone = pytz.timezone(user_timezone_str)
 
-    # Display the current date and time
-    st.write(f"Current date and time ({user_timezone_str}): {current_datetime}")
+        # Get current time in user's timezone
+        current_datetime = datetime.datetime.now(user_timezone)
+        
+        # Display the current date and time
+        st.write(f"Current date and time ({user_timezone_str}): {current_datetime}")
+    else:
+        st.write("Unable to determine location and timezone.")
 
 if __name__ == "__main__":
     main()
+
 
 # Get the current date and time 
 current_datetime = datetime.datetime.now()
