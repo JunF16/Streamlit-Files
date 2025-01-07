@@ -71,12 +71,14 @@ st.audio(audio_file, loop=True, autoplay=True)
 def get_user_location():
     try:
         # Get user's IP address and location data
-        response = requests.get('https://ipinfo.io/json')
-        data = response.json()
-        location = data['loc'].split(',')
-        latitude = float(location[0])
-        longitude = float(location[1])
-        return latitude, longitude
+        with st.expander("View IP Info Response"):
+            response = requests.get('https://ipinfo.io/json')
+            st.write("IP Info Response:", response.json())  # Log the response
+            data = response.json()
+            location = data['loc'].split(',')
+            latitude = float(location[0])
+            longitude = float(location[1])
+            return latitude, longitude
     except requests.exceptions.RequestException as e:
         st.error(f"An error occurred: {e}")
         return None
@@ -93,7 +95,18 @@ def get_user_timezone(lat, lon):
         return 'UTC'  # Default to UTC if there's an error
 
 def main():
-    st.title("Current Date and Time")
+    st.markdown(
+    """
+    <style>
+    .big-font {
+        font-size:18px !important;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
+    st.markdown('<p class="big-font">Current Date and Time</p>', unsafe_allow_html=True)
 
     # Get user's location
     location = get_user_location()

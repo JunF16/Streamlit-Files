@@ -74,11 +74,11 @@ st.markdown(custom_css, unsafe_allow_html=True)
 #change bullet point contents every commit!
 st.markdown("""
 <ul class="custom-bullet-points">
-    <p>Added Thonny Scripts</p>
+    <p>What I have added,</p>
         <ul>
-            <li>added random_story_generator</li>
-            <li>added convert_wind_speed</li>
-            <li>added pdrop_darcy_weisbach</li>
+            <li>Current date</li>
+            <li>Current time</li>
+            <li>Current day</li>
         </ul>
 </ul>
 """, unsafe_allow_html=True)
