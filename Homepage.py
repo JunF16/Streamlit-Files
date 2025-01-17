@@ -109,28 +109,28 @@ def main():
 
     st.markdown('<p class="big-font">Current Date and Time</p>', unsafe_allow_html=True)
 
-    # Get user's location
-    location = get_user_location()
-    if location:
-        latitude, longitude = location
-        # Get user's timezone
-        user_timezone_str = get_user_timezone(latitude, longitude)
-        user_timezone = pytz.timezone(user_timezone_str)
+# Get user's location
+location = get_user_location()
+if location:
+    latitude, longitude = location
+# Get user's timezone
+    user_timezone_str = get_user_timezone(latitude, longitude)
+    user_timezone = pytz.timezone(user_timezone_str)
 
-        # Get current time in user's timezone
-        current_datetime = datetime.datetime.now(user_timezone)
+ # Get current time in user's timezone
+    current_datetime = datetime.now(user_timezone)
         
-        # Display the current date and time
-        st.write(f"Current date and time ({user_timezone_str}): {current_datetime}")
-    else:
-        st.write("Unable to determine location and timezone.")
+# Display the current date and time
+    st.write(f"Current date and time ({user_timezone_str}): {current_datetime}")
+else:
+    st.write("Unable to determine location and timezone.")
 
 if __name__ == "__main__":
     main()
 
 
 # Get the current date and time 
-current_datetime = datetime.datetime.now()
+current_datetime = datetime.now()
 
 # Get the day of the week (0 = Monday, 1 = Tuesday, ..., 6 = Sunday) 
 day_of_week = current_datetime.weekday() 
