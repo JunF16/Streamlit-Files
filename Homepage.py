@@ -73,15 +73,17 @@ def get_user_location():
     try:
         # Get user's IP address and location data
         with st.expander("View IP Info Response"):
-            response = requests.get('https://ipinfo.io/json')
+            response = requests.get('https://ipapi.co/json')
             st.write("IP Info Response:", response.json())  # Log the response
             data = response.json()
-            location = data['loc'].split(',')
-            latitude = float(location[0])
-            longitude = float(location[1])
+            latitude = float(data['latitude'])
+            longitude = float(data['longitude'])
             return latitude, longitude
     except requests.exceptions.RequestException as e:
         st.error(f"An error occurred: {e}")
+        return None
+    except KeyError as e:
+        st.error(f"Key error: {e}")
         return None
 
 def get_user_timezone(lat, lon):
