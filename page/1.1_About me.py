@@ -74,7 +74,7 @@ st.markdown(custom_css, unsafe_allow_html=True)
 #change bullet point contents every commit!
 st.markdown("""
 <ul class="custom-bullet-points">
-    <p>What I have added,</p>
+    <p>New update include:</p>
         <ul>
             <li>Current date</li>
             <li>Current time</li>
