@@ -4,6 +4,7 @@ import datetime
 import pytz
 import requests
 from timezonefinder import TimezoneFinder
+from datetime import datetime
 from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 
