@@ -76,9 +76,9 @@ st.markdown("""
 <ul class="custom-bullet-points">
     <p>New update includes:</p>
         <ul>
-            <li>Current date</li>
-            <li>Current time</li>
-            <li>Current day</li>
+            <li>Thonny Scripts 1</li>
+            <li>Thonny Scripts 2</li>
+            <li>Thonny Scripts 3</li>
         </ul>
 </ul>
 """, unsafe_allow_html=True)
