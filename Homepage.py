@@ -1,4 +1,6 @@
 import streamlit as st
+import datetime
+from datetime import datetime, timedelta
 
 # cwd = os.getcwd()  # Get the current working directory (cwd)
 # files = os.listdir(cwd)  # Get all the files in that directory
@@ -60,6 +62,16 @@ audio_file = "audio/Nuvolebianche.ogg"
 
 # Display the audio player
 st.audio(audio_file, loop=True, autoplay=True)
+
+# Function to get the current time in UTC +8
+def get_current_time():
+    utc_now = datetime.utcnow()
+    utc_plus_8 = utc_now + timedelta(hours=8)
+    return utc_plus_8.strftime('%A, %B %d, %Y %H:%M:%S')
+
+# Display the current time in UTC +8
+current_time = get_current_time()
+st.markdown(f'<div class="clock-container">{current_time}</div>', unsafe_allow_html=True)
 
 # Shared assets
 st.logo("assets/gear.png")
