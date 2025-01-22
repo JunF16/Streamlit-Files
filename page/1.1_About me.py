@@ -79,6 +79,7 @@ st.markdown("""
             <li>Thonny Scripts 1</li>
             <li>Thonny Scripts 2</li>
             <li>Thonny Scripts 3</li>
+            <li>Solidworks Practice #5</li>
         </ul>
 </ul>
 """, unsafe_allow_html=True)

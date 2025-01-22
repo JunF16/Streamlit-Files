@@ -8,8 +8,26 @@ img_Cert_1 = Image.open("images/Solidworks/Ex 223.PNG")
 img_Cert_2 = Image.open("images/Solidworks/SW Mill Tut.PNG")
 img_Cert_3 = Image.open("images/Solidworks/SW Weld Tut.PNG")
 img_Cert_4 = Image.open("images/Solidworks/SW SM Tut.PNG")
+img_Cert_5 = Image.open("images/Solidworks/Ex 243.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 5")
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+
+with image_column:
+    st.image(img_Cert_5)
+with text_column:
+    st.subheader("Solidworks 3D model")
+    st.write(
+        """
+         Solidworks practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=fFZTvQjRnyY)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 4")
