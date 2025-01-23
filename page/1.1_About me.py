@@ -71,15 +71,16 @@ ul.custom-bullet-points {
 """
 st.markdown(custom_css, unsafe_allow_html=True)
 
-#change bullet point contents every commit!
+#add bullet point contents every commit!
 st.markdown("""
 <ul class="custom-bullet-points">
     <p>New update includes:</p>
         <ul>
-            <li>Thonny Scripts 1</li>
-            <li>Thonny Scripts 2</li>
-            <li>Thonny Scripts 3</li>
+            <li>Solidworks Practice #6</li>
             <li>Solidworks Practice #5</li>
+            <li>Thonny Scripts 3</li>
+            <li>Thonny Scripts 2</li>
+            <li>Thonny Scripts 1</li>
         </ul>
 </ul>
 """, unsafe_allow_html=True)

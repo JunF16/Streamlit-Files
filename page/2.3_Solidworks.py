@@ -9,8 +9,26 @@ img_Cert_2 = Image.open("images/Solidworks/SW Mill Tut.PNG")
 img_Cert_3 = Image.open("images/Solidworks/SW Weld Tut.PNG")
 img_Cert_4 = Image.open("images/Solidworks/SW SM Tut.PNG")
 img_Cert_5 = Image.open("images/Solidworks/Ex 243.PNG")
+img_Cert_6 = Image.open("images/Solidworks/Ex 244.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 6")
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+
+with image_column:
+    st.image(img_Cert_6)
+with text_column:
+    st.subheader("Step drill bit model")
+    st.write(
+        """
+         Solidworks practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=_7rzzCVkrMQ)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 5")
@@ -26,7 +44,7 @@ with text_column:
          Solidworks practice from MAHTABALAM
         """
         )
-    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=fFZTvQjRnyY)")
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=yKkpFz28bNA)")
 
 with st.container():
     st.write("---")
