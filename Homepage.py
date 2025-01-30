@@ -67,11 +67,45 @@ st.audio(audio_file, loop=True, autoplay=True)
 def get_current_time():
     utc_now = datetime.utcnow()
     utc_plus_8 = utc_now + timedelta(hours=8)
-    return utc_plus_8.strftime('%A, %B %d, %Y %H:%M:%S')
+    return utc_plus_8.strftime('%A, %B %d, %Y')
 
 # Display the current time in UTC +8
 current_time = get_current_time()
 st.markdown(f'<div class="clock-container">{current_time}</div>', unsafe_allow_html=True)
+
+import streamlit as st
+
+st.components.v1.html(""" 
+<style>
+    #clock-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        margin-bottom: -20px; /* Adjust this value as needed */
+    }
+    #clock {
+        font-size: 2em;
+        font-weight: bold;
+        font-family: Arial, sans-serif;
+        color: red;
+    }
+</style>
+
+<div id="clock-container">
+    <div id="clock"></div>
+</div>
+
+<script>
+function updateClock() {
+    const now = new Date();
+    const clock = document.getElementById('clock');
+    clock.innerHTML = now.toLocaleTimeString();
+}
+setInterval(updateClock, 1000);
+updateClock();
+</script>
+""", height=50)  # Adjust the height as needed
 
 # Shared assets
 st.logo("assets/gear.png")
