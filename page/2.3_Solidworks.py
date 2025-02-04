@@ -10,8 +10,27 @@ img_Cert_3 = Image.open("images/Solidworks/SW Weld Tut.PNG")
 img_Cert_4 = Image.open("images/Solidworks/SW SM Tut.PNG")
 img_Cert_5 = Image.open("images/Solidworks/Ex 243.PNG")
 img_Cert_6 = Image.open("images/Solidworks/Ex 244.PNG")
+video_file_1 = open("videos/SW Assembly1.mp4","rb") 
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 7")
+    st.write("##")
+    video_column, text_column = st.columns((1,2))
+    
+with video_column:
+    video_bytes = video_file_1.read()
+    st.video(video_file_1)
+with text_column:
+    st.subheader("Crane hook model")
+    st.write(
+        """
+         Solidworks Practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=_7rzzCVkrMQ)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 6")
