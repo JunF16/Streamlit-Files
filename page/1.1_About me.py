@@ -76,6 +76,11 @@ st.markdown("""
 <ul class="custom-bullet-points">
     <p>New update includes:</p>
         <ul>
+            <li>Solidworks Practice #11</li>
+            <li>Solidworks Practice #10</li>
+            <li>Solidworks Practice #9</li>
+            <li>Solidworks Practice #8</li>
+            <li>Solidworks Practice #7</li>
             <li>Solidworks Practice #6</li>
             <li>Solidworks Practice #5</li>
             <li>Thonny Scripts 3</li>

@@ -12,8 +12,62 @@ img_Cert_5 = Image.open("images/Solidworks/Ex 243.PNG")
 img_Cert_6 = Image.open("images/Solidworks/Ex 244.PNG")
 video_file_1 = open("videos/SW Assembly1.mp4","rb") 
 img_Cert_7 = Image.open("images/Solidworks/SW Weld1.PNG")
+img_Cert_8 = Image.open("images/Solidworks/SW Weld2.PNG")
+img_Cert_9 = Image.open("images/Solidworks/SW Weld3.PNG")
+img_Cert_10 = Image.open("images/Solidworks/SW Weld4.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 11")
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+
+with image_column:
+    st.image(img_Cert_10)
+with text_column:
+    st.subheader("3D Metal Sheet")
+    st.write(
+        """
+         Solidworks practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=KMXm8H2hynI)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 10")
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+
+with image_column:
+    st.image(img_Cert_9)
+with text_column:
+    st.subheader("3D Weldment Beam")
+    st.write(
+        """
+         Solidworks practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=PUTo-HForow)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 9")
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+
+with image_column:
+    st.image(img_Cert_8)
+with text_column:
+    st.subheader("3D Weldment Stairs")
+    st.write(
+        """
+         Solidworks practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=BMlsOO6eFxs)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 8")
@@ -29,7 +83,7 @@ with text_column:
          Solidworks practice from MAHTABALAM
         """
         )
-    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=_7rzzCVkrMQ)")
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=u1esUuvivoo)")
 
 with st.container():
     st.write("---")
@@ -47,7 +101,7 @@ with text_column:
          Solidworks Practice from MAHTABALAM
         """
         )
-    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=_7rzzCVkrMQ)")
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=XXZSOqtRO6s)")
 
 with st.container():
     st.write("---")
