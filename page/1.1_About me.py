@@ -74,18 +74,19 @@ st.markdown(custom_css, unsafe_allow_html=True)
 #add bullet point contents every commit!
 st.markdown("""
 <ul class="custom-bullet-points">
-    <p>New update includes:</p>
+    <p>New update for 2025 includes:</p>
         <ul>
-            <li>Solidworks Practice #11</li>
-            <li>Solidworks Practice #10</li>
-            <li>Solidworks Practice #9</li>
-            <li>Solidworks Practice #8</li>
-            <li>Solidworks Practice #7</li>
-            <li>Solidworks Practice #6</li>
-            <li>Solidworks Practice #5</li>
-            <li>Thonny Scripts 3</li>
-            <li>Thonny Scripts 2</li>
-            <li>Thonny Scripts 1</li>
+            <li>Solidworks Practice #12 - Drill Vice model</li>
+            <li>Solidworks Practice #11 - 3D Metal sheet</li>
+            <li>Solidworks Practice #10 - 3D Weldment beam</li>
+            <li>Solidworks Practice #9 - 3D Weldment stairs</li>
+            <li>Solidworks Practice #8 - 3D Weldment table</li>
+            <li>Solidworks Practice #7 - Crane hook model</li>
+            <li>Solidworks Practice #6 - Step drill bit model</li>
+            <li>Solidworks Practice #5 - Solidworks 3D model</li>
+            <li>Thonny Scripts 3 - Pressure Drop using Darcy-Weisbach Equation</li>
+            <li>Thonny Scripts 2 - Wind Speed Converter</li>
+            <li>Thonny Scripts 1 - Random Story Generator</li>
         </ul>
 </ul>
 """, unsafe_allow_html=True)

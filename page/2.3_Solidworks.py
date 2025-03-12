@@ -15,8 +15,27 @@ img_Cert_7 = Image.open("images/Solidworks/SW Weld1.PNG")
 img_Cert_8 = Image.open("images/Solidworks/SW Weld2.PNG")
 img_Cert_9 = Image.open("images/Solidworks/SW Weld3.PNG")
 img_Cert_10 = Image.open("images/Solidworks/SW Weld4.PNG")
+video_file_2 = open("videos/SW Assembly2.mp4","rb")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 12")
+    st.write("##")
+    video_column, text_column = st.columns((1,2))
+    
+with video_column:
+    video_bytes = video_file_2.read()
+    st.video(video_file_2)
+with text_column:
+    st.subheader("Drill vice model")
+    st.write(
+        """
+         Solidworks Practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=X7ZV9oKXIXA)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 11")
