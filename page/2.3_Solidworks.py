@@ -16,8 +16,26 @@ img_Cert_8 = Image.open("images/Solidworks/SW Weld2.PNG")
 img_Cert_9 = Image.open("images/Solidworks/SW Weld3.PNG")
 img_Cert_10 = Image.open("images/Solidworks/SW Weld4.PNG")
 video_file_2 = open("videos/SW Assembly2.mp4","rb")
+img_Cert_11 = Image.open("images/Solidworks/SW Piston.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 13")
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+
+with image_column:
+    st.image(img_Cert_11)
+with text_column:
+    st.subheader("3D Piston model")
+    st.write(
+        """
+         Solidworks practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=a9dpWeGBWfU)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 12")

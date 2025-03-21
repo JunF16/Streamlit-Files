@@ -76,6 +76,7 @@ st.markdown("""
 <ul class="custom-bullet-points">
     <p>New update for 2025 includes:</p>
         <ul>
+            <li>Solidworks Practice #13 - 3D Piston model</li>
             <li>Solidworks Practice #12 - Drill Vice model</li>
             <li>Solidworks Practice #11 - 3D Metal sheet</li>
             <li>Solidworks Practice #10 - 3D Weldment beam</li>
