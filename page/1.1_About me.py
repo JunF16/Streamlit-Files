@@ -58,36 +58,37 @@ for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
 
 # About this page
 st.write("---")
-st.write("#")
-st.subheader("What's new on this web page?")
-custom_css = """
-<style>
-ul.custom-bullet-points {
-    list-style-type: cirlce; /* Change to other types like circle, disc, etc. */
-    color: white; /* Change bullet color */
-    font-size: 18px; /* Change font size */
-}
-</style>
-"""
-st.markdown(custom_css, unsafe_allow_html=True)
 
-#add bullet point contents every commit!
-st.markdown("""
-<ul class="custom-bullet-points">
-    <p>New update for 2025 includes:</p>
-        <ul>
-            <li>Solidworks Practice #13 - 3D Piston model</li>
-            <li>Solidworks Practice #12 - Drill Vice model</li>
-            <li>Solidworks Practice #11 - 3D Metal sheet</li>
-            <li>Solidworks Practice #10 - 3D Weldment beam</li>
-            <li>Solidworks Practice #9 - 3D Weldment stairs</li>
-            <li>Solidworks Practice #8 - 3D Weldment table</li>
-            <li>Solidworks Practice #7 - Crane hook model</li>
-            <li>Solidworks Practice #6 - Step drill bit model</li>
-            <li>Solidworks Practice #5 - Solidworks 3D model</li>
-            <li>Thonny Scripts 3 - Pressure Drop using Darcy-Weisbach Equation</li>
-            <li>Thonny Scripts 2 - Wind Speed Converter</li>
-            <li>Thonny Scripts 1 - Random Story Generator</li>
-        </ul>
-</ul>
-""", unsafe_allow_html=True)
+# Optional: Add an overall title for this section
+st.header("New Updates for 2025!")
+st.divider()
+
+# Creates two columns. You can adjust the ratio if needed, e.g., st.columns([2, 1])
+col1, col2 = st.columns(2)
+
+# --- Populate the first column (Solidworks) ---
+with col1:
+    st.subheader("Solidworks Practice") # Heading for the first column
+    st.markdown("""
+    * Practice #13 - 3D Piston model
+    * Practice #12 - Drill Vice model
+    * Practice #11 - 3D Metal sheet
+    * Practice #10 - 3D Weldment beam
+    * Practice #9 - 3D Weldment stairs
+    * Practice #8 - 3D Weldment table
+    * Practice #7 - Crane hook model
+    * Practice #6 - Step drill bit model
+    * Practice #5 - Solidworks 3D model
+    """) # Using a Markdown list
+
+# --- Populate the second column (Thonny Scripts) ---
+with col2:
+    st.subheader("Thonny Scripts") # Heading for the second column
+    st.markdown("""
+    * Script 3 - Pressure Drop (Darcy-Weisbach)
+    * Script 2 - Wind Speed Converter
+    * Script 1 - Random Story Generator
+    """) # Using a Markdown list
+
+# You can add more content below the columns if needed
+# st.write("More updates coming soon...")
