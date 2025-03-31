@@ -70,6 +70,7 @@ col1, col2 = st.columns(2)
 with col1:
     st.subheader("Solidworks Practice") # Heading for the first column
     st.markdown("""
+    * Practice #14 - Sheet Metal CPU Case
     * Practice #13 - 3D Piston model
     * Practice #12 - Drill Vice model
     * Practice #11 - 3D Metal sheet

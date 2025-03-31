@@ -17,8 +17,28 @@ img_Cert_9 = Image.open("images/Solidworks/SW Weld3.PNG")
 img_Cert_10 = Image.open("images/Solidworks/SW Weld4.PNG")
 video_file_2 = open("videos/SW Assembly2.mp4","rb")
 img_Cert_11 = Image.open("images/Solidworks/SW Piston.PNG")
+img_Cert_12 = Image.open("images/Solidworks/SW SM CPU Case.PNG")
+img_Cert_13 = Image.open("images/Solidworks/SW SM CPU Case2.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 14")
+    st.write("##")
+    image_column, text_column = st.columns((1,2))
+
+with image_column:
+    st.image(img_Cert_12)
+    st.image(img_Cert_13)
+with text_column:
+    st.subheader("Sheet Metal CPU Case")
+    st.write(
+        """
+         Solidworks practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=H17nr57bxsM&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 13")
