@@ -86,6 +86,7 @@ with col1:
 with col2:
     st.subheader("Thonny Scripts") # Heading for the second column
     st.markdown("""
+    * Script 4 - Mean Calculator
     * Script 3 - Pressure Drop (Darcy-Weisbach)
     * Script 2 - Wind Speed Converter
     * Script 1 - Random Story Generator

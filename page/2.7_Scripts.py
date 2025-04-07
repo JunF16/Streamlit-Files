@@ -2,6 +2,30 @@ import streamlit as st
 from th_scripts.random_story_generator import generate_story
 from th_scripts.convert_wind_speed import convert_wind_speed_to_kph 
 from th_scripts.pdrop_darcy_weisbach import calculate_pressure_drop
+from th_scripts.mean_calculator import calculate_mean
+
+st.title("Mean Calculator")
+
+# Input from the user
+user_input = st.text_input("Enter numbers separated by commas:")
+
+if st.button("Calculate Mean"):
+    try:
+        # Process the input into a list of integers
+        numbers = [int(num.strip()) for num in user_input.split(",")]
+
+        # Calculate the mean
+        mean = calculate_mean(numbers)
+
+        # Display the result
+        if mean is not None:
+            st.success(f"The mean of the entered numbers is: {mean}")
+        else:
+            st.warning("No valid numbers entered. Please try again.")
+    except ValueError:
+        st.error("Invalid input. Please enter only numbers separated by commas.")
+
+st.markdown("---")
 
 st.title("Pressure Drop using Darcy-Weisbach Equation")
 
