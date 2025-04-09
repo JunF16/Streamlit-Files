@@ -41,7 +41,7 @@ if st.button("Calculate Pressure Drop"):
         # Call the function to calculate pressure drop
         pressure_drop = calculate_pressure_drop(friction_factor, length, diameter, density, velocity)
         # Display the result
-        st.write(f"Calculated Pressure Drop: {pressure_drop:.2f} Pa")
+        st.write(f"Calculated Pressure Drop: {pressure_drop:,.2f} Pa")
     except Exception as e:
         st.error(f"An error occurred: {e}")
 

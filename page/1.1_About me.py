@@ -84,7 +84,7 @@ with col1:
 
 # --- Populate the second column (Thonny Scripts) ---
 with col2:
-    st.subheader("Thonny Scripts") # Heading for the second column
+    st.subheader("Scripts") # Heading for the second column
     st.markdown("""
     * Script 4 - Mean Calculator
     * Script 3 - Pressure Drop (Darcy-Weisbach)
