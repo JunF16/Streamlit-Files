@@ -12,7 +12,7 @@ with st.container():
     st.write("---")
     st.header("AutoCAD practice 2")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_2)
@@ -29,7 +29,7 @@ with st.container():
     st.write("---")
     st.header("AutoCAD practice 1")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_1)

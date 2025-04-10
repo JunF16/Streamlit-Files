@@ -19,13 +19,34 @@ video_file_2 = open("videos/SW Assembly2.mp4","rb")
 img_Cert_11 = Image.open("images/Solidworks/SW Piston.PNG")
 img_Cert_12 = Image.open("images/Solidworks/SW SM CPU Case.PNG")
 img_Cert_13 = Image.open("images/Solidworks/SW SM CPU Case2.PNG")
+img_Cert_14 = Image.open("images/Solidworks/SW Plastic Bottle.PNG")
+img_Cert_15 = Image.open("images/Solidworks/SW Plastic Bottle1.PNG")
+img_Cert_16 = Image.open("images/Solidworks/SW Plastic Bottle2.PNG")
 
 # Projects (add above succeeding project)
 with st.container():
     st.write("---")
+    st.header("Solidworks Practice 15")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+with image_column:
+    st.image(img_Cert_14)
+    st.image(img_Cert_15)
+    st.image(img_Cert_16)
+with text_column:
+    st.subheader("3D Model of a Plastic Bottle")
+    st.write(
+        """
+         Solidworks practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=yK52E8bZD-s)")
+
+with st.container():
+    st.write("---")
     st.header("Solidworks Practice 14")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
 
 with image_column:
     st.image(img_Cert_12)
@@ -43,7 +64,7 @@ with st.container():
     st.write("---")
     st.header("Solidworks Practice 13")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
 
 with image_column:
     st.image(img_Cert_11)
@@ -60,7 +81,7 @@ with st.container():
     st.write("---")
     st.header("Solidworks Practice 12")
     st.write("##")
-    video_column, text_column = st.columns((1,2))
+    video_column, text_column = st.columns((2,2))
     
 with video_column:
     video_bytes = video_file_2.read()
@@ -78,7 +99,7 @@ with st.container():
     st.write("---")
     st.header("Solidworks Practice 11")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
 
 with image_column:
     st.image(img_Cert_10)
@@ -95,7 +116,7 @@ with st.container():
     st.write("---")
     st.header("Solidworks Practice 10")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
 
 with image_column:
     st.image(img_Cert_9)
@@ -112,7 +133,7 @@ with st.container():
     st.write("---")
     st.header("Solidworks Practice 9")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
 
 with image_column:
     st.image(img_Cert_8)
@@ -129,7 +150,7 @@ with st.container():
     st.write("---")
     st.header("Solidworks Practice 8")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
 
 with image_column:
     st.image(img_Cert_7)
@@ -146,7 +167,7 @@ with st.container():
     st.write("---")
     st.header("Solidworks Practice 7")
     st.write("##")
-    video_column, text_column = st.columns((1,2))
+    video_column, text_column = st.columns((2,2))
     
 with video_column:
     video_bytes = video_file_1.read()
@@ -164,7 +185,7 @@ with st.container():
     st.write("---")
     st.header("Solidworks Practice 6")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
 
 with image_column:
     st.image(img_Cert_6)
@@ -181,7 +202,7 @@ with st.container():
     st.write("---")
     st.header("Solidworks Practice 5")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
 
 with image_column:
     st.image(img_Cert_5)
@@ -198,7 +219,7 @@ with st.container():
     st.write("---")
     st.header("Solidworks Practice 4")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_4)
@@ -215,7 +236,7 @@ with st.container():
     st.write("---")
     st.header("Solidworks Practice 3")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_3)
@@ -232,7 +253,7 @@ with st.container():
     st.write("---")
     st.header("Solidworks Practice 2")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_2)
@@ -249,7 +270,7 @@ with st.container():
     st.write("---")
     st.header("Solidworks Practice 1")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_1)

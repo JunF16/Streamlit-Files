@@ -20,7 +20,7 @@ with st.container():
     st.write("---")
     st.header("Certificate #10")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_10)
@@ -37,7 +37,7 @@ with st.container():
     st.write("---")
     st.header("Certificate #9")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_9)
@@ -54,7 +54,7 @@ with st.container():
     st.write("---")
     st.header("Certificate #8")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_8)
@@ -71,7 +71,7 @@ with st.container():
     st.write("---")
     st.header("Certificate #7")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_7)
@@ -88,7 +88,7 @@ with st.container():
     st.write("---")
     st.header("Certificate #6")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_1)
@@ -105,7 +105,7 @@ with st.container():
     st.write("---")
     st.header("Certificate #5")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_2)
@@ -122,7 +122,7 @@ with st.container():
     st.write("---")
     st.header("Certificate #4")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_3)
@@ -139,7 +139,7 @@ with st.container():
     st.write("---")
     st.header("Certificate #3")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_4)
@@ -156,7 +156,7 @@ with st.container():
     st.write("---")
     st.header("Certificate #2")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_5)
@@ -173,7 +173,7 @@ with st.container():
     st.write("---")
     st.header("Certificate #1")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_6)

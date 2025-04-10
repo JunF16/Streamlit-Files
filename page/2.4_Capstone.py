@@ -16,7 +16,7 @@ with st.container():
     st.write("---")
     st.header("3D Model of Capstone Project")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_6)
@@ -27,7 +27,7 @@ with st.container():
     st.write("---")
     st.header("AutoCAD of Capstone Project")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_5)
@@ -38,7 +38,7 @@ with st.container():
     st.write("---")
     st.header("AutoCAD of Capstone Project")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_4)
@@ -49,7 +49,7 @@ with st.container():
     st.write("---")
     st.header("AutoCAD of Capstone Project")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_3)
@@ -60,7 +60,7 @@ with st.container():
     st.write("---")
     st.header("AutoCAD of Capstone Project")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_2)
@@ -71,7 +71,7 @@ with st.container():
     st.write("---")
     st.header("AutoCAD of Capstone Project")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_1)

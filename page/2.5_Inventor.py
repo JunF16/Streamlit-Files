@@ -21,7 +21,7 @@ with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 11")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_7)
@@ -38,7 +38,7 @@ with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 10")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_6)
@@ -55,7 +55,7 @@ with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 9")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_5)
@@ -72,7 +72,7 @@ with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 8")
     st.write("##")
-    video_column, text_column = st.columns((1,2))
+    video_column, text_column = st.columns((2,2))
     
 with video_column:
     video_bytes = video_file_4.read()
@@ -90,7 +90,7 @@ with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 7")
     st.write("##")
-    video_column, text_column = st.columns((1,2))
+    video_column, text_column = st.columns((2,2))
     
 with video_column:
     video_bytes = video_file_3.read()
@@ -108,7 +108,7 @@ with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 6")
     st.write("##")
-    video_column, text_column = st.columns((1,2))
+    video_column, text_column = st.columns((2,2))
     
 with video_column:
     video_bytes = video_file_2.read()
@@ -126,7 +126,7 @@ with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 5")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_4)
@@ -143,7 +143,7 @@ with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 4")
     st.write("##")
-    video_column, text_column = st.columns((1,2))
+    video_column, text_column = st.columns((2,2))
     
 with video_column:
     video_bytes = video_file_1.read()
@@ -161,7 +161,7 @@ with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 3")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_3)
@@ -178,7 +178,7 @@ with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 2")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_2)
@@ -195,7 +195,7 @@ with st.container():
     st.write("---")
     st.header("Autodesk Inventor practice 1")
     st.write("##")
-    image_column, text_column = st.columns((1,2))
+    image_column, text_column = st.columns((2,2))
     
 with image_column:
     st.image(img_Cert_1)
