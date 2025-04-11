@@ -1,6 +1,6 @@
 import streamlit as st
 import datetime
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 # cwd = os.getcwd()  # Get the current working directory (cwd)
 # files = os.listdir(cwd)  # Get all the files in that directory
@@ -65,7 +65,7 @@ st.audio(audio_file, loop=True, autoplay=True)
 
 # Function to get the current time in UTC +8
 def get_current_time():
-    utc_now = datetime.utcnow()
+    utc_now = datetime.now(timezone.utc)
     utc_plus_8 = utc_now + timedelta(hours=8)
     return utc_plus_8.strftime('%A, %B %d, %Y')
 
