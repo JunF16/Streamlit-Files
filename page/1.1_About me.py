@@ -68,7 +68,10 @@ col1, col2 = st.columns(2)
 
 # --- Populate the first column (Solidworks) ---
 with col1:
-    st.subheader("Solidworks Practice") # Heading for the first column
+    
+    st.markdown(
+    '<h2><a href="https://casugajm.streamlit.app/.3_Solidworks" target="_self">Solidworks Practice</a></h2>',
+    unsafe_allow_html=True)
     st.markdown("""
     * Practice #15 - 3D Model of a Plastic Bottle
     * Practice #14 - Sheet Metal CPU Case
@@ -85,7 +88,9 @@ with col1:
 
 # --- Populate the second column (Thonny Scripts) ---
 with col2:
-    st.subheader("Scripts") # Heading for the second column
+    st.markdown(
+    '<h2><a href="https://casugajm.streamlit.app/.7_Scripts" target="_self">Scripts</a></h2>',
+    unsafe_allow_html=True)
     st.markdown("""
     * Script 4 - Mean Calculator
     * Script 3 - Pressure Drop (Darcy-Weisbach)
