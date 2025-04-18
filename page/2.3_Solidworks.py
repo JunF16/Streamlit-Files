@@ -22,8 +22,27 @@ img_Cert_13 = Image.open("images/Solidworks/SW SM CPU Case2.PNG")
 img_Cert_14 = Image.open("images/Solidworks/SW Plastic Bottle.PNG")
 img_Cert_15 = Image.open("images/Solidworks/SW Plastic Bottle1.PNG")
 img_Cert_16 = Image.open("images/Solidworks/SW Plastic Bottle2.PNG")
+img_Cert_17 = Image.open("images/Solidworks/Ex 130.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 16")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+with image_column:
+    st.image(img_Cert_14)
+    st.image(img_Cert_15)
+    st.image(img_Cert_16)
+with text_column:
+    st.subheader("Solidworks 3D Model")
+    st.write(
+        """
+         Solidworks practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=NC5IN35bBvo)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 15")

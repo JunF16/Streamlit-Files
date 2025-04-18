@@ -65,14 +65,14 @@ st.divider()
 
 # Creates two columns. You can adjust the ratio if needed, e.g., st.columns([2, 1])
 col1, col2 = st.columns(2)
-
-# --- Populate the first column (Solidworks) ---
+col3, col4 = st.columns(2)
 with col1:
     
     st.markdown(
     '<h2><a href="https://casugajm.streamlit.app/.3_Solidworks" target="_self">Solidworks Practice</a></h2>',
     unsafe_allow_html=True)
     st.markdown("""
+    * Practice #16 - Solidworks 3D Model
     * Practice #15 - 3D Model of a Plastic Bottle
     * Practice #14 - Sheet Metal CPU Case
     * Practice #13 - 3D Piston model
@@ -86,7 +86,6 @@ with col1:
     * Practice #5 - Solidworks 3D model
     """) # Using a Markdown list
 
-# --- Populate the second column (Thonny Scripts) ---
 with col2:
     st.markdown(
     '<h2><a href="https://casugajm.streamlit.app/.7_Scripts" target="_self">Scripts</a></h2>',
@@ -96,7 +95,14 @@ with col2:
     * Script 3 - Pressure Drop (Darcy-Weisbach)
     * Script 2 - Wind Speed Converter
     * Script 1 - Random Story Generator
-    """) # Using a Markdown list
+    """) 
 
-# You can add more content below the columns if needed
-# st.write("More updates coming soon...")
+with col3:
+    st.markdown(
+    '<h2><a href="https://casugajm.streamlit.app/.8_Excel" target="_self">Excel Web App</a></h2>',
+    unsafe_allow_html=True)
+    st.markdown("""
+    * Excel Web App 1 - Mock Survey Results filtered by Departments
+    * Excel Web App 1 - Mock Survey Table with Sorting
+    * Excel Web App 1 - Total number of Participants in each Department
+    """)

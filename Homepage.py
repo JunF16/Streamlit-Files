@@ -44,7 +44,10 @@ project_8_page = st.Page(
     page="page/2.7_Scripts.py",
     title="Scripts"
 )
-
+project_9_page = st.Page(
+    page="page/2.8_Excel.py",
+    title="Excel Web App"
+)
 
 # Navigation setup without sections
 # pg = st.navigation(pages=[about_page, project_1_page, project_2_page])
@@ -53,7 +56,7 @@ project_8_page = st.Page(
 pg = st.navigation(
     {
         "Info": [about_page, project_1_page],
-        "Projects": [project_2_page, project_7_page, project_5_page, project_6_page, project_3_page, project_8_page, project_4_page],
+        "Projects": [project_2_page, project_7_page, project_5_page, project_9_page, project_6_page, project_3_page, project_8_page, project_4_page],
     }
 )
 
@@ -107,8 +110,7 @@ updateClock();
 </script>
 """, height=50)  # Adjust the height as needed
 
-# Shared assets
-st.logo("assets/gear.png")
+st.logo("downloads/gear.png")
 st.sidebar.text("Made by yours truly ❤ ")
 
 # Run navigation
