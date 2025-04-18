@@ -31,9 +31,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((2,2))
 with image_column:
-    st.image(img_Cert_14)
-    st.image(img_Cert_15)
-    st.image(img_Cert_16)
+    st.image(img_Cert_17)
 with text_column:
     st.subheader("Solidworks 3D Model")
     st.write(
