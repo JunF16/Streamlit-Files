@@ -23,8 +23,27 @@ img_Cert_14 = Image.open("images/Solidworks/SW Plastic Bottle.PNG")
 img_Cert_15 = Image.open("images/Solidworks/SW Plastic Bottle1.PNG")
 img_Cert_16 = Image.open("images/Solidworks/SW Plastic Bottle2.PNG")
 img_Cert_17 = Image.open("images/Solidworks/Ex 130.PNG")
+video_file_3 = open("videos/SW Assembly4.mp4","rb")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 17")
+    st.write("##")
+    video_column, text_column = st.columns((2,2))
+    
+with video_column:
+    video_bytes = video_file_3.read()
+    st.video(video_file_3)
+with text_column:
+    st.subheader("Universal Joint Model")
+    st.write(
+        """
+         Solidworks Practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=X7ZV9oKXIXA)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 16")
