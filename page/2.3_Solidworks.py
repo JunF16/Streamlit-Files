@@ -24,8 +24,30 @@ img_Cert_15 = Image.open("images/Solidworks/SW Plastic Bottle1.PNG")
 img_Cert_16 = Image.open("images/Solidworks/SW Plastic Bottle2.PNG")
 img_Cert_17 = Image.open("images/Solidworks/Ex 130.PNG")
 video_file_3 = open("videos/SW Assembly4.mp4","rb")
+video_file_4 = open("videos/SW Assembly5.mp4","rb")
+video_file_5 = open("videos/SW Assembly5.2.mp4","rb")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 18")
+    st.write("##")
+    video_column, text_column = st.columns((2,2))
+    
+with video_column:
+    video_bytes = video_file_4.read()
+    st.video(video_file_4)
+    video_bytes = video_file_5.read()
+    st.video(video_file_5)
+with text_column:
+    st.subheader("Planetary Gear Model")
+    st.write(
+        """
+         Solidworks Practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=2mBRTeEtsv4&t=3075s)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 17")
