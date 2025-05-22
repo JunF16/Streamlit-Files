@@ -28,8 +28,42 @@ video_file_4 = open("videos/SW Assembly5.mp4","rb")
 video_file_5 = open("videos/SW Assembly5.2.mp4","rb")
 img_Cert_18 = Image.open("images/Solidworks/Ex 252.PNG")
 img_Cert_19 = Image.open("images/Solidworks/Ex 252.1.PNG")
+img_Cert_20 = Image.open("images/Solidworks/SW Plastic Mug.PNG")
+img_Cert_21 = Image.open("images/Solidworks/SW Plastic Basket.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 21")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+with image_column:
+    st.image(img_Cert_21)
+with text_column:
+    st.subheader("Plastic Basket Model")
+    st.write(
+        """
+         Solidworks practice from Solid House
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=UkQBsB0PnDo)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 20")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+with image_column:
+    st.image(img_Cert_20)
+with text_column:
+    st.subheader("Plastic Mug Model")
+    st.write(
+        """
+         Solidworks practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=bboMwvwOYLE)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 19")
