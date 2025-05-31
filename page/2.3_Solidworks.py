@@ -30,8 +30,27 @@ img_Cert_18 = Image.open("images/Solidworks/Ex 252.PNG")
 img_Cert_19 = Image.open("images/Solidworks/Ex 252.1.PNG")
 img_Cert_20 = Image.open("images/Solidworks/SW Plastic Mug.PNG")
 img_Cert_21 = Image.open("images/Solidworks/SW Plastic Basket.PNG")
+img_Cert_22 = Image.open("images/Solidworks/SW SM Metal Rack.PNG")
+img_Cert_23 = Image.open("images/Solidworks/SM Metal Rack DXF.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 22")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+with image_column:
+    st.image(img_Cert_22)
+    st.image(img_Cert_23)
+with text_column:
+    st.subheader("Sheet Metal Rack")
+    st.write(
+        """
+         Solidworks practice from MAHTABALAM
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=RLJ_dbMl8fk)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 21")
