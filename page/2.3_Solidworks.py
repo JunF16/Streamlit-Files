@@ -32,8 +32,42 @@ img_Cert_20 = Image.open("images/Solidworks/SW Plastic Mug.PNG")
 img_Cert_21 = Image.open("images/Solidworks/SW Plastic Basket.PNG")
 img_Cert_22 = Image.open("images/Solidworks/SW SM Metal Rack.PNG")
 img_Cert_23 = Image.open("images/Solidworks/SM Metal Rack DXF.PNG")
+img_Cert_24 = Image.open("images/Solidworks/SW SM 01 TTT.PNG")
+img_Cert_25 = Image.open("images/Solidworks/SW Pump Body TTT.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 24")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+with image_column:
+    st.image(img_Cert_25)
+with text_column:
+    st.subheader("Pump Body Model")
+    st.write(
+        """
+         Solidworks practice from Too Tall Toby
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=cbCkNIb4zPw)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 23")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+with image_column:
+    st.image(img_Cert_24)
+with text_column:
+    st.subheader("Sheet Metal Model")
+    st.write(
+        """
+         Solidworks practice from Too Tall Toby
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=o64aMeDdKsw&list=WL&index=3)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 22")
