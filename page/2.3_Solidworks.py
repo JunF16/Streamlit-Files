@@ -2,7 +2,7 @@ from PIL import Image
 import streamlit as st
 from pathlib import Path
 
-# Load Assets
+# Load Assets (add underscore for image version under same item)
 current_dir = Path(_file_).parent if "_file_" in locals() else Path.cwd()
 img_Cert_1 = Image.open("images/Solidworks/Ex 223.PNG")
 img_Cert_2 = Image.open("images/Solidworks/SW Mill Tut.PNG")
@@ -31,18 +31,35 @@ img_Cert_19 = Image.open("images/Solidworks/Ex 252.1.PNG")
 img_Cert_20 = Image.open("images/Solidworks/SW Plastic Mug.PNG")
 img_Cert_21 = Image.open("images/Solidworks/SW Plastic Basket.PNG")
 img_Cert_22 = Image.open("images/Solidworks/SW SM Metal Rack.PNG")
-img_Cert_23 = Image.open("images/Solidworks/SM Metal Rack DXF.PNG")
-img_Cert_24 = Image.open("images/Solidworks/SW SM 01 TTT.PNG")
-img_Cert_25 = Image.open("images/Solidworks/SW Pump Body TTT.PNG")
+img_Cert_22_1 = Image.open("images/Solidworks/SM Metal Rack DXF.PNG")
+img_Cert_23 = Image.open("images/Solidworks/SW SM 01 TTT.PNG")
+img_Cert_24 = Image.open("images/Solidworks/SW Pump Body TTT.PNG")
+img_Cert_25 = Image.open("images/Solidworks/SW Dice Model.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 25")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+with image_column:
+    st.image(img_Cert_25)
+with text_column:
+    st.subheader("Dice Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=kflJzTSUwqE)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 24")
     st.write("##")
     image_column, text_column = st.columns((2,2))
 with image_column:
-    st.image(img_Cert_25)
+    st.image(img_Cert_24)
 with text_column:
     st.subheader("Pump Body Model")
     st.write(
@@ -58,7 +75,7 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((2,2))
 with image_column:
-    st.image(img_Cert_24)
+    st.image(img_Cert_23)
 with text_column:
     st.subheader("Sheet Metal Model")
     st.write(
@@ -75,7 +92,7 @@ with st.container():
     image_column, text_column = st.columns((2,2))
 with image_column:
     st.image(img_Cert_22)
-    st.image(img_Cert_23)
+    st.image(img_Cert_22_1)
 with text_column:
     st.subheader("Sheet Metal Rack")
     st.write(

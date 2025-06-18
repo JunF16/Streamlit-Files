@@ -72,6 +72,7 @@ with col1:
     '<h2><a href="https://casugajm.streamlit.app/.3_Solidworks" target="_self">Solidworks Practice</a></h2>',
     unsafe_allow_html=True)
     st.markdown("""
+    * Practice #25 - Dice Model
     * Practice #24 - Pump Body Model
     * Practice #23 - Sheet Metal Model
     * Practice #22 - Sheet Metal Rack
