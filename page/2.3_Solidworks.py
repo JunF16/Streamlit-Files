@@ -35,8 +35,59 @@ img_Cert_22_1 = Image.open("images/Solidworks/SM Metal Rack DXF.PNG")
 img_Cert_23 = Image.open("images/Solidworks/SW SM 01 TTT.PNG")
 img_Cert_24 = Image.open("images/Solidworks/SW Pump Body TTT.PNG")
 img_Cert_25 = Image.open("images/Solidworks/SW Dice Model.PNG")
+img_Cert_26 = Image.open("images/Solidworks/Bike Tire n Rim.PNG")
+img_Cert_27 = Image.open("images/Solidworks/Ex 256.PNG")
+img_Cert_28 = Image.open("images/Solidworks/Corrugated Wheel.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 28")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+with image_column:
+    st.image(img_Cert_28)
+with text_column:
+    st.subheader("Corrugated Steering Wheel Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=XxiXdzR07Yw&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=4)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 27")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+with image_column:
+    st.image(img_Cert_27)
+with text_column:
+    st.subheader("Solidworks 3D Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=_WeXUfN94O8&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=10)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 26")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+with image_column:
+    st.image(img_Cert_26)
+with text_column:
+    st.subheader("Bike Tire and Rim")
+    st.write(
+        """
+         Solidworks practice from CAD Monkeys
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=VlqgIK81pgI)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 25")
