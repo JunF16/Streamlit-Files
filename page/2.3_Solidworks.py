@@ -38,8 +38,62 @@ img_Cert_25 = Image.open("images/Solidworks/SW Dice Model.PNG")
 img_Cert_26 = Image.open("images/Solidworks/Bike Tire n Rim.PNG")
 img_Cert_27 = Image.open("images/Solidworks/Ex 256.PNG")
 img_Cert_28 = Image.open("images/Solidworks/Corrugated Wheel.PNG")
+img_Cert_29 = Image.open("images/Solidworks/Pattern and Rotate.PNG")
+img_Cert_30 = Image.open("images/Solidworks/Holes with Instances.PNG")
+img_Cert_31 = Image.open("images/Solidworks/Brass Cup.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 31")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_31)
+with text_column:
+    st.subheader("Brass Cup Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=fpnvddI_Tck&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=2)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 30")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_30)
+with text_column:
+    st.subheader("Drainage Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=NvLDB_Eu2BI&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=6)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 29")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_29)
+with text_column:
+    st.subheader("Pattern and Rotate Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=-MJhwaQQU_E)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 28")

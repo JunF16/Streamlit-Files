@@ -72,6 +72,9 @@ with col1:
     '<h2><a href="https://casugajm.streamlit.app/.3_Solidworks" target="_self">Solidworks Practice</a></h2>',
     unsafe_allow_html=True)
     st.markdown("""
+    * Practice #31 - Brass Cup Model
+    * Practice #30 - Drainage Model
+    * Practice #29 - Pattern and Rotate Model
     * Practice #28 - Corrugated Steering Wheel Model
     * Practice #27 - Solidworks 3D Model
     * Practice #26 - Bike Wheel Model
