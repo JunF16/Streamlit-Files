@@ -41,8 +41,80 @@ img_Cert_28 = Image.open("images/Solidworks/Corrugated Wheel.PNG")
 img_Cert_29 = Image.open("images/Solidworks/Pattern and Rotate.PNG")
 img_Cert_30 = Image.open("images/Solidworks/Holes with Instances.PNG")
 img_Cert_31 = Image.open("images/Solidworks/Brass Cup.PNG")
+img_Cert_32 = Image.open("images/Solidworks/Helical Gear.PNG")
+img_Cert_33 = Image.open("images/Solidworks/Spiral Volute Shell.PNG")
+img_Cert_34 = Image.open("images/Solidworks/Surface Modelling 1.PNG")
+img_Cert_35 = Image.open("images/Solidworks/Double Ear Clip.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 35")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_35)
+with text_column:
+    st.subheader("Double Ear Clip")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=t-e3cuBgArU)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 34")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_34)
+with text_column:
+    st.subheader("Surface Model")
+    st.write(
+        """
+         Solidworks practice from Cadmake
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=yFED4qHR0IA)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 33")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_33)
+with text_column:
+    st.subheader("Spiral Volute Shell")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=0sduhyJWtEY&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=8)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 32")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_32)
+with text_column:
+    st.subheader("Helical Gear Model")
+    st.write(
+        """
+         Solidworks practice from Cadmake
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=e_0CHSRfoQ4&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=10)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 31")

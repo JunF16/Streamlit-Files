@@ -14,8 +14,26 @@ img_Cert_7 = Image.open("images/Certs/COC_ConsEst.PNG")
 img_Cert_8 = Image.open("images/Certs/COC_SnH.PNG")
 img_Cert_9 = Image.open("images/Certs/COC_Read.PNG")
 img_Cert_10 = Image.open("images/Certs/COC_PnS.PNG")
+img_Cert_11 = Image.open("images/Certs/PMTD June 2025.PNG")
 
 # Projects
+with st.container():
+    st.write("---")
+    st.header("Certificate #11")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+    
+with image_column:
+    st.image(img_Cert_11)
+with text_column:
+    st.subheader("Project Management Training and Development")
+    st.write(
+            """
+            Date Finished: 01 June 2025
+            """
+        )
+    st.markdown("[Learn from here...](PSME, Inc. - Project Management Technical Division)")
+
 with st.container():
     st.write("---")
     st.header("Certificate #10")

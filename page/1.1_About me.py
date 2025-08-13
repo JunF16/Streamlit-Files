@@ -66,12 +66,18 @@ st.divider()
 # Creates two columns. You can adjust the ratio if needed, e.g., st.columns([2, 1])
 col1, col2 = st.columns(2)
 col3, col4 = st.columns(2)
+col5, col6 = st.columns(2)
+
 with col1:
     
     st.markdown(
     '<h2><a href="https://casugajm.streamlit.app/.3_Solidworks" target="_self">Solidworks Practice</a></h2>',
     unsafe_allow_html=True)
     st.markdown("""
+    * Practice #35 - Double Ear Clip
+    * Practice #34 - Surface Model
+    * Practice #33 - Spiral Volute Shell
+    * Practice #32 - Helical Gear Model
     * Practice #31 - Brass Cup Model
     * Practice #30 - Drainage Model
     * Practice #29 - Pattern and Rotate Model
@@ -120,4 +126,12 @@ with col3:
     * Excel Web App 1 - Mock Survey Results filtered by Departments
     * Excel Web App 1 - Mock Survey Table with Sorting
     * Excel Web App 1 - Total number of Participants in each Department
+    """)
+
+with col4:
+    st.markdown(
+    '<h2><a href="https://casugajm.streamlit.app/.2_Certificates" target="_self">Certificates</a></h2>',
+    unsafe_allow_html=True)
+    st.markdown("""
+    * Certificate 11 - Project Management Training and Development
     """)
