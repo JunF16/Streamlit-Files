@@ -32,7 +32,7 @@ with text_column:
             Date Finished: 01 June 2025
             """
         )
-    st.markdown("[Learn from here...](PSME, Inc. - Project Management Technical Division)")
+    st.markdown("[Learn from here...](https://web.facebook.com/story.php/?story_fbid=761910166506805&id=100080634850733&_rdc=1&_rdr#)")
 
 with st.container():
     st.write("---")

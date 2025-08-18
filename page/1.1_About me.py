@@ -74,6 +74,8 @@ with col1:
     '<h2><a href="https://casugajm.streamlit.app/.3_Solidworks" target="_self">Solidworks Practice</a></h2>',
     unsafe_allow_html=True)
     st.markdown("""
+    * Practice #37 - Deform Model
+    * Practice #36 - Triangle Looped Ring
     * Practice #35 - Double Ear Clip
     * Practice #34 - Surface Model
     * Practice #33 - Spiral Volute Shell

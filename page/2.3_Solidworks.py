@@ -45,8 +45,44 @@ img_Cert_32 = Image.open("images/Solidworks/Helical Gear.PNG")
 img_Cert_33 = Image.open("images/Solidworks/Spiral Volute Shell.PNG")
 img_Cert_34 = Image.open("images/Solidworks/Surface Modelling 1.PNG")
 img_Cert_35 = Image.open("images/Solidworks/Double Ear Clip.PNG")
+img_Cert_36 = Image.open("images/Solidworks/Triangle Looped Ring.PNG")
+img_Cert_37 = Image.open("images/Solidworks/Deform Model 1.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 37")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_37)
+with text_column:
+    st.subheader("Deform Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=EMzLF5w3pAI&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=34)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 36")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_36)
+with text_column:
+    st.subheader("Triangle Looped Ring")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=EVBKVX1r18c&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=16)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 35")
