@@ -47,8 +47,44 @@ img_Cert_34 = Image.open("images/Solidworks/Surface Modelling 1.PNG")
 img_Cert_35 = Image.open("images/Solidworks/Double Ear Clip.PNG")
 img_Cert_36 = Image.open("images/Solidworks/Triangle Looped Ring.PNG")
 img_Cert_37 = Image.open("images/Solidworks/Deform Model 1.PNG")
+img_Cert_38 = Image.open("images/Solidworks/Circular Shaped Spring.PNG")
+img_Cert_39 = Image.open("images/Solidworks/Carabinet Model.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 39")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_39)
+with text_column:
+    st.subheader("Carabinet Model")
+    st.write(
+        """
+         Solidworks practice from 3D World
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=SQwUya2Y4sc&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=6)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 38")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_38)
+with text_column:
+    st.subheader("Circular Shaped Spring")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=7Q602vk0TWM&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 37")
