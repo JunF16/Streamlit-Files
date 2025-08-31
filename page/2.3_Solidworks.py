@@ -53,7 +53,7 @@ img_Cert_40 = Image.open("images/Solidworks/Exhaust Manifold Model.PNG")
 img_Cert_40_1 = Image.open("images/Solidworks/Exhaust Manifold Model.2.PNG")
 img_Cert_40_2 = Image.open("images/Solidworks/Exhaust Manifold Model.3.PNG")
 img_Cert_41 = Image.open("images/Solidworks/Drill Bit Model.PNG")
-img_Cert_42 = Image.open("images/Solidworks/Tri-Corner Trophy Model.PNG")
+img_Cert_42 = Image.open("images/Solidworks/Tri-corner Trophy Model.PNG")
 img_Cert_43 = Image.open("images/Solidworks/5 Tines Rake Model.PNG")
 img_Cert_44 = Image.open("images/Solidworks/Claw Hammer Model.PNG")
 
