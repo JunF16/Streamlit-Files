@@ -74,6 +74,11 @@ with col1:
     '<h2><a href="https://casugajm.streamlit.app/.3_Solidworks" target="_self">Solidworks Practice</a></h2>',
     unsafe_allow_html=True)
     st.markdown("""
+    * Practice #44 - Claw Hammer Model
+    * Practice #43 - 5 Tines Rake Model
+    * Practice #42 - Tri-Corner Trophy Model
+    * Practice #41 - Drill Bit Model
+    * Practice #40 - Exhaust Manifold Model
     * Practice #39 - Carabinet Model
     * Practice #38 - Circular Shaped Spring
     * Practice #37 - Deform Model

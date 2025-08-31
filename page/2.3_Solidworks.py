@@ -49,8 +49,102 @@ img_Cert_36 = Image.open("images/Solidworks/Triangle Looped Ring.PNG")
 img_Cert_37 = Image.open("images/Solidworks/Deform Model 1.PNG")
 img_Cert_38 = Image.open("images/Solidworks/Circular Shaped Spring.PNG")
 img_Cert_39 = Image.open("images/Solidworks/Carabinet Model.PNG")
+img_Cert_40 = Image.open("images/Solidworks/Exhaust Manifold Model.PNG")
+img_Cert_40_1 = Image.open("images/Solidworks/Exhaust Manifold Model.2.PNG")
+img_Cert_40_2 = Image.open("images/Solidworks/Exhaust Manifold Model.3.PNG")
+img_Cert_41 = Image.open("images/Solidworks/Drill Bit Model.PNG")
+img_Cert_42 = Image.open("images/Solidworks/Tri-Corner Trophy Model.PNG")
+img_Cert_43 = Image.open("images/Solidworks/5 Tines Rake Model.PNG")
+img_Cert_44 = Image.open("images/Solidworks/Claw Hammer Model.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 44")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_44)
+with text_column:
+    st.subheader("Claw Hammer Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=MZmIM0MWlhs&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=18)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 43")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_43)
+with text_column:
+    st.subheader("5 Tines Rake Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=u0KpRaV8J4k&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=47)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 42")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_42)
+with text_column:
+    st.subheader("Tri-Corner Trophy Model")
+    st.write(
+        """
+         Solidworks practice from SolidWorks Central
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=2F0jTUPycIw&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=3)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 41")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_41)
+with text_column:
+    st.subheader("Drill Bit Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=yNt9vzxjXB0&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=4)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 40")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_40)
+    st.image(img_Cert_40_1)
+    st.image(img_Cert_40_2)
+with text_column:
+    st.subheader("Exhaust Manifold Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=YCuqkoN1nAs)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 39")
