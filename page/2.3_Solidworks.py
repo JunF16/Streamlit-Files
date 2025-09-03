@@ -56,8 +56,31 @@ img_Cert_41 = Image.open("images/Solidworks/Drill Bit Model.PNG")
 img_Cert_42 = Image.open("images/Solidworks/Tri-corner Trophy Model.PNG")
 img_Cert_43 = Image.open("images/Solidworks/5 Tines Rake Model.PNG")
 img_Cert_44 = Image.open("images/Solidworks/Claw Hammer Model.PNG")
+img_Cert_45 = Image.open("images/Solidworks/Volvo Wheel Loader Model.PNG")
+img_Cert_45_1 = Image.open("images/Solidworks/Volvo Wheel Loader Model2.PNG")
+video_file_6 = open("videos/Volvo Wheel Loader Model.mp4","rb")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 45")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_45)
+    st.image(img_Cert_45_1)
+    st.video(video_file_6)
+    video_bytes = video_file_6.read()   
+with text_column:
+    st.subheader("Volvo Wheel Loader Model")
+    st.write(
+        """
+         Solidworks practice
+        """
+        )
+    st.markdown("[Learn from here...]()")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 44")
