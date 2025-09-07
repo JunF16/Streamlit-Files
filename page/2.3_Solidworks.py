@@ -59,8 +59,98 @@ img_Cert_44 = Image.open("images/Solidworks/Claw Hammer Model.PNG")
 img_Cert_45 = Image.open("images/Solidworks/Volvo Wheel Loader Model.PNG")
 img_Cert_45_1 = Image.open("images/Solidworks/Volvo Wheel Loader Model2.PNG")
 video_file_6 = open("videos/Volvo Wheel Loader Model.mp4","rb")
+img_Cert_46 = Image.open("images/Solidworks/Honeycomb Mesh Model.PNG")
+img_Cert_47 = Image.open("images/Solidworks/Gear Fidget Spinner.PNG")
+img_Cert_48 = Image.open("images/solidworks/Light Bulb Model.PNG")
+img_Cert_49 = Image.open("images/Solidworks/Rubber Handle Model.PNG")
+img_Cert_50 = Image.open("images/Solidworks/Hair Dryer Nozzle Model.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 50")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_50)  
+with text_column:
+    st.subheader("Hair Dryer Nozzle Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=3K1eCxUAqkM&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=2)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 49")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_49)  
+with text_column:
+    st.subheader("Rubber Handle Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=GUuNgJo-4g0&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=3)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 48")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_48)  
+with text_column:
+    st.subheader("Light Bulb Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=Tu0dfx7d2OQ&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=14)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 47")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_47)  
+with text_column:
+    st.subheader("Gear Fidget Spinner")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=GH7obM6TL3k&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=9)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 46")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_46)  
+with text_column:
+    st.subheader("Honeycomb Mesh Model")
+    st.write(
+        """
+         Solidworks practice from Solidworks Central
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=TeqXivG8SIU&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=22)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 45")

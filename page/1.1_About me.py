@@ -74,6 +74,12 @@ with col1:
     '<h2><a href="https://casugajm.streamlit.app/.3_Solidworks" target="_self">Solidworks Practice</a></h2>',
     unsafe_allow_html=True)
     st.markdown("""
+    * Practice #50 - Hair Dryer Nozzle Model
+    * Practice #49 - Rubber Handle Model
+    * Practice #48 - Light Bulb Model
+    * Practice #47 - Gear Fidget Spinner
+    * Practice #46 - Honeycomb Mesh Model
+    * Practice #45 - Volvo Wheel Loader Model
     * Practice #44 - Claw Hammer Model
     * Practice #43 - 5 Tines Rake Model
     * Practice #42 - Tri-Corner Trophy Model
