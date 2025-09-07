@@ -61,7 +61,7 @@ img_Cert_45_1 = Image.open("images/Solidworks/Volvo Wheel Loader Model2.PNG")
 video_file_6 = open("videos/Volvo Wheel Loader Model.mp4","rb")
 img_Cert_46 = Image.open("images/Solidworks/Honeycomb Mesh Model.PNG")
 img_Cert_47 = Image.open("images/Solidworks/Gear Fidget Spinner.PNG")
-img_Cert_48 = Image.open("images/solidworks/Light Bulb Model.PNG")
+img_Cert_48 = Image.open("images/Solidworks/Light Bulb Model.PNG")
 img_Cert_49 = Image.open("images/Solidworks/Rubber Handle Model.PNG")
 img_Cert_50 = Image.open("images/Solidworks/Hair Dryer Nozzle Model.PNG")
 
