@@ -64,8 +64,26 @@ img_Cert_47 = Image.open("images/Solidworks/Gear Fidget Spinner.PNG")
 img_Cert_48 = Image.open("images/Solidworks/Light Bulb Model.PNG")
 img_Cert_49 = Image.open("images/Solidworks/Rubber Handle Model.PNG")
 img_Cert_50 = Image.open("images/Solidworks/Hair Dryer Nozzle Model.PNG")
+img_Cert_51 = Image.open("images/Solidworks/Lifting Ring Model.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 51")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_51)  
+with text_column:
+    st.subheader("Lifting Ring Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=TGodt8O88EI&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=3&pp=gAQBiAQB)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 50")
@@ -919,3 +937,4 @@ with text_column:
         """
         )
     st.markdown("[Learn from here...](https://www.youtube.com/watch?v=fFZTvQjRnyY)")
+    st.markdown("[Download my model here...]()")
