@@ -65,8 +65,26 @@ img_Cert_48 = Image.open("images/Solidworks/Light Bulb Model.PNG")
 img_Cert_49 = Image.open("images/Solidworks/Rubber Handle Model.PNG")
 img_Cert_50 = Image.open("images/Solidworks/Hair Dryer Nozzle Model.PNG")
 img_Cert_51 = Image.open("images/Solidworks/Lifting Ring Model.PNG")
+img_Cert_52 = Image.open("images/Solidworks/Off Road Buggy Brick Model.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 52")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_52)  
+with text_column:
+    st.subheader("Off-road Buggy Model")
+    st.write(
+        """
+         Solidworks practice from Fully Defined
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=SPvlJ5xVVmg&list=PLBzmroCxoKwyWP86rzB4AUOUM_wUrEPir)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 51")

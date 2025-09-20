@@ -3,6 +3,11 @@ from th_scripts.random_story_generator import generate_story
 from th_scripts.convert_wind_speed import convert_wind_speed_to_kph 
 from th_scripts.pdrop_darcy_weisbach import calculate_pressure_drop
 from th_scripts.mean_calculator import calculate_mean
+from th_scripts.extrapolation import linear_extrapolate
+
+st.title ("Interpolation")
+
+st.markdown("---")
 
 st.title("Mean Calculator")
 
