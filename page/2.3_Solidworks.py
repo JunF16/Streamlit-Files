@@ -66,8 +66,66 @@ img_Cert_49 = Image.open("images/Solidworks/Rubber Handle Model.PNG")
 img_Cert_50 = Image.open("images/Solidworks/Hair Dryer Nozzle Model.PNG")
 img_Cert_51 = Image.open("images/Solidworks/Lifting Ring Model.PNG")
 img_Cert_52 = Image.open("images/Solidworks/Off Road Buggy Brick Model.PNG")
+img_Cert_53 = Image.open("images/Solidworks/Ex 258.PNG")
+img_Cert_54 = Image.open("images/Solidworks/Windshield Grid Model.PNG")
+img_Cert_55 = Image.open("images/Solidworks/Wooden Bench.PNG")
+img_Cert_55_1 = Image.open("images/Solidworks/Wooden Bench2.PNG")
+img_Cert_55_2 = Image.open("images/Solidworks/Wooden Bench3.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 55")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    images = [img_Cert_55, img_Cert_55_1, img_Cert_55_2]
+    idx = st.slider("Wooden Bench Render", 1, len(images), 1)
+    st.image(images[idx-1], use_column_width=True)
+with text_column:
+    st.subheader("Wooden Bench Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=CvG9gtiLiFM&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=4)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 54")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_54)  
+with text_column:
+    st.subheader("Windshield Grid Model")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=O4tY9rygihY&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=13)")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 53")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_53)  
+with text_column:
+    st.subheader("Exercise 258")
+    st.write(
+        """
+         Solidworks practice from Mahtabalam
+        """
+        )
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=HBK-ZVYrIpU&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=12)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 52")
@@ -194,18 +252,19 @@ with st.container():
     image_column, text_column = st.columns((2,2))
 
 with image_column:
-    st.image(img_Cert_45)
-    st.image(img_Cert_45_1)
+    images = [img_Cert_45, img_Cert_45_1]
+    idx = st.slider("Volvo Wheel Loader Renders", 1, len(images), 1)
+    st.image(images[idx-1], use_column_width=True)
     st.video(video_file_6)
     video_bytes = video_file_6.read()   
 with text_column:
     st.subheader("Volvo Wheel Loader Model")
     st.write(
         """
-         Solidworks practice
+         Solidworks practice from Fully Defined
         """
         )
-    st.markdown("[Learn from here...]()")
+    st.markdown("[Learn from here...](https://www.youtube.com/@FullyDefined-Design)")
 
 with st.container():
     st.write("---")
@@ -282,9 +341,10 @@ with st.container():
     image_column, text_column = st.columns((2,2))
 
 with image_column:
-    st.image(img_Cert_40)
-    st.image(img_Cert_40_1)
-    st.image(img_Cert_40_2)
+    images = [img_Cert_40, img_Cert_40_1, img_Cert_40_2]
+    idx = st.slider("Exhaust Manifold Renders", 1, len(images), 1)
+    st.image(images[idx-1], use_column_width=True)
+
 with text_column:
     st.subheader("Exhaust Manifold Model")
     st.write(
@@ -583,8 +643,9 @@ with st.container():
     st.write("##")
     image_column, text_column = st.columns((2,2))
 with image_column:
-    st.image(img_Cert_22)
-    st.image(img_Cert_22_1)
+    images = [img_Cert_22, img_Cert_22_1]
+    idx = st.slider("Sheet Metal Rack Renders", 1, len(images), 1)
+    st.image(images[idx-1], use_column_width=True)
 with text_column:
     st.subheader("Sheet Metal Rack")
     st.write(

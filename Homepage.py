@@ -7,6 +7,31 @@ from datetime import datetime, timedelta, timezone
 # print("Files in %r: %s" % (cwd, files))
 
 # Page setup
+st.set_page_config(layout="wide")
+st.markdown(
+    """
+    <style>
+    .scroll-x {
+        display: flex;
+        justify-content: center;   /* centers row content */
+        overflow-x: auto;
+        gap: 15px;
+        padding: 10px 0;
+    }
+    .scroll-x img {
+        max-height: 200px;
+        border-radius: 10px;
+        box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
+        transition: transform 0.2s;
+    }
+    .scroll-x img:hover {
+        transform: scale(1.05);
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 about_page = st.Page(
     page="page/1.1_About me.py",
     title="About Me",

@@ -74,6 +74,7 @@ with col1:
     '<h2><a href="https://casugajm.streamlit.app/.3_Solidworks" target="_self">Solidworks Practice</a></h2>',
     unsafe_allow_html=True)
     st.markdown("""
+    * Practice #52 - Off-road Buggy Lego Model
     * Practice #51 - Lifting Ring Model
     * Practice #50 - Hair Dryer Nozzle Model
     * Practice #49 - Rubber Handle Model
