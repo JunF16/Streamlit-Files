@@ -74,7 +74,8 @@ with col1:
     '<h2><a href="https://casugajm.streamlit.app/.3_Solidworks" target="_self">Solidworks Practice</a></h2>',
     unsafe_allow_html=True)
     st.markdown("""
-    * Practice #56 - Rubik's Cube Model
+    * Practice #57 - Rubik's Cube Model
+    * Practice #56 - Screw Lift Podium Model
     * Practice #55 - Wooden Bench Model
     * Practice #54 - Windshield Grid Model
     * Practice #53 - Exercise #258
