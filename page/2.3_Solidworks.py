@@ -71,8 +71,47 @@ img_Cert_54 = Image.open("images/Solidworks/Windshield Grid Model.PNG")
 img_Cert_55 = Image.open("images/Solidworks/Wooden Bench.PNG")
 img_Cert_55_1 = Image.open("images/Solidworks/Wooden Bench2.PNG")
 img_Cert_55_2 = Image.open("images/Solidworks/Wooden Bench3.PNG")
+img_Cert_56 = Image.open("images/Solidworks/Screw Lift Podium.PNG")
+video_file_7 = open("videos/Screw Lift Podium.mp4","rb")
+img_Cert_57 = Image.open("images/Solidworks/Rubiks Cube.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 57")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_57)  
+with text_column:
+    st.subheader("Rubik's Cube Model")
+    st.write(
+        """
+         Solidworks practice from 
+        """
+        )
+    st.markdown("[Learn from here...]()")
+
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 56")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    st.image(img_Cert_56) 
+    video_bytes = video_file_7.read()
+    st.video(video_file_7) 
+with text_column:
+    st.subheader("Screw Lift Podium")
+    st.write(
+        """
+         Solidworks practice from 
+        """
+        )
+    st.markdown("[Learn from here...]()")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 55")

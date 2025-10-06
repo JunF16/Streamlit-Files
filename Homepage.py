@@ -133,7 +133,7 @@ function updateClock() {
 setInterval(updateClock, 1000);
 updateClock();
 </script>
-""", height=50)  # Adjust the height as needed
+""", height=50)  # Adjusts the height as needed
 
 st.logo("downloads/gear.png")
 st.sidebar.text("Made by yours truly ❤ ")
