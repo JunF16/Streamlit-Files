@@ -88,10 +88,10 @@ with text_column:
     st.subheader("Rubik's Cube Model")
     st.write(
         """
-         Solidworks practice from 
+         Solidworks practice from Manjeet Singh
         """
         )
-    st.markdown("[Learn from here...]()")
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=BT_ksVYtfWM&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=9)")
 
 with st.container():
     st.write("---")
@@ -107,10 +107,10 @@ with text_column:
     st.subheader("Screw Lift Podium")
     st.write(
         """
-         Solidworks practice from 
+         Solidworks practice from SKY-CAD-TECHNOLOGY
         """
         )
-    st.markdown("[Learn from here...]()")
+    st.markdown("[Learn from here...](https://www.youtube.com/watch?v=Ep8TltUEmwA&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=12)")
 
 with st.container():
     st.write("---")
