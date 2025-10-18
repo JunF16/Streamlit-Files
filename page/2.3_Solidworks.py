@@ -74,8 +74,29 @@ img_Cert_55_2 = Image.open("images/Solidworks/Wooden Bench3.PNG")
 img_Cert_56 = Image.open("images/Solidworks/Screw Lift Podium.PNG")
 video_file_7 = open("videos/Screw Lift Podium.mp4","rb")
 img_Cert_57 = Image.open("images/Solidworks/Rubiks Cube.PNG")
+img_Cert_58 = Image.open("images/Solidworks/Table Fan Model.PNG")
+img_Cert_58_1 = Image.open("images/Solidworks/Table Fan Model2.PNG")
 
 # Projects (add above succeeding project)
+with st.container():
+    st.write("---")
+    st.header("Solidworks Practice 58")
+    st.write("##")
+    image_column, text_column = st.columns((2,2))
+
+with image_column:
+    images = [img_Cert_58, img_Cert_58_1]
+    idx = st.slider("Table Fan Render", 1, len(images), 1)
+    st.image(images[idx-1], use_column_width=True) 
+with text_column:
+    st.subheader("Table Fan Model")
+    st.write(
+        """
+         Solidworks practice from GrabCAD
+        """
+        )
+    st.markdown("[Learn from here...](https://grabcad.com/library/mini-table-fan-2)")
+
 with st.container():
     st.write("---")
     st.header("Solidworks Practice 57")

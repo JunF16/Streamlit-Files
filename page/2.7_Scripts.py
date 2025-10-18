@@ -5,7 +5,7 @@ from th_scripts.pdrop_darcy_weisbach import calculate_pressure_drop
 from th_scripts.mean_calculator import calculate_mean
 from th_scripts.extrapolation import linear_extrapolate
 
-st.title ("Interpolation")
+st.title ("Extrapolation")
 
 st.markdown("---")
 
