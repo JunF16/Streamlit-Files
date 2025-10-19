@@ -135,6 +135,7 @@ with col2:
     '<h2><a href="https://casugajm.streamlit.app/.7_Scripts" target="_self">Scripts</a></h2>',
     unsafe_allow_html=True)
     st.markdown("""
+    * Script 5 - Linear Extrapolation Tool
     * Script 4 - Mean Calculator
     * Script 3 - Pressure Drop (Darcy-Weisbach)
     * Script 2 - Wind Speed Converter
