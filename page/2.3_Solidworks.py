@@ -90,7 +90,7 @@ with st.container():
 
 with image_column:
     images = [img_Cert_60, img_Cert_60_1]
-    idx = st.slider("Table Fan Render", 1, len(images), 1)
+    idx = st.slider("Plastic Organizer Render", 1, len(images), 1)
     st.image(images[idx-1], use_column_width=True) 
 with text_column:
     st.subheader("Plastic Organizer Assembly")
