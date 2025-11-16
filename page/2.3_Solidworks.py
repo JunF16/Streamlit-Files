@@ -99,7 +99,7 @@ with text_column:
          Solidworks practice from GrabCAD
         """
         )
-    st.markdown("[Learn from here...](https://grabcad.com/library/mini-table-fan-2)")
+    st.markdown("[Learn from here...](https://grabcad.com/library/small-parts-organizer-1)")
 
 with st.container():
     st.write("---")
