@@ -1,10 +1,5 @@
 import streamlit as st
-import datetime
 from datetime import datetime, timedelta, timezone
-
-# cwd = os.getcwd()  # Get the current working directory (cwd)
-# files = os.listdir(cwd)  # Get all the files in that directory
-# print("Files in %r: %s" % (cwd, files))
 
 # Page setup
 st.set_page_config(layout="wide")
@@ -85,55 +80,52 @@ pg = st.navigation(
     }
 )
 
-# Load your audio file
+# Load and display the audio player
 audio_file = "audio/Nuvolebianche.ogg"
+st.audio(audio_file, loop=True, autoplay=False) # autoplay=False is better for user experience
 
-# Display the audio player
-st.audio(audio_file, loop=True, autoplay=True)
-
-# Function to get the current time in UTC +8
-def get_current_time():
-    utc_now = datetime.now(timezone.utc)
-    utc_plus_8 = utc_now + timedelta(hours=8)
-    return utc_plus_8.strftime('%A, %B %d, %Y')
-
-# Display the current time in UTC +8
-current_time = get_current_time()
-st.markdown(f'<div class="clock-container">{current_time}</div>', unsafe_allow_html=True)
-
-import streamlit as st
-
-st.components.v1.html(""" 
+# Combined Date and Time Display (Client-side)
+st.components.v1.html("""
 <style>
     #clock-container {
         display: flex;
         justify-content: center;
         align-items: center;
         height: auto;
-        margin-bottom: -20px; /* Adjust this value as needed */
+        flex-direction: column;
+        margin-bottom: -10px;
     }
-    #clock {
+    #date, #clock {
         font-size: 2em;
         font-weight: bold;
         font-family: Arial, sans-serif;
         color: red;
     }
+    #date {
+        font-size: 1.2em;
+        margin-bottom: 5px; /* Adds space between date and time */
+    }
 </style>
 
 <div id="clock-container">
+    <div id="date"></div>
     <div id="clock"></div>
 </div>
 
 <script>
 function updateClock() {
-    const now = new Date();
+    // Create a date object for UTC+8
+    const now = new Date(new Date().toLocaleString("en-US", {timeZone: "Asia/Singapore"}));
     const clock = document.getElementById('clock');
+    const date = document.getElementById('date');
+    const dateOptions = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
+    date.innerHTML = now.toLocaleDateString('en-US', dateOptions);
     clock.innerHTML = now.toLocaleTimeString();
 }
 setInterval(updateClock, 1000);
 updateClock();
 </script>
-""", height=50)  # Adjusts the height as needed
+""", height=80)
 
 st.logo("downloads/gear.png")
 st.sidebar.text("Made by yours truly ❤ ")
