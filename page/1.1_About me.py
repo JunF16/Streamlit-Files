@@ -74,6 +74,7 @@ with col1:
     '<h2><a href="https://casugajm.streamlit.app/.3_Solidworks" target="_self">Solidworks Practice</a></h2>',
     unsafe_allow_html=True)
     st.markdown("""
+    * Practice #61 - Corkscrew Model
     * Practice #60 - Plastic Organizer Assembly
     * Practice #59 - Laptop Stand Model
     * Practice #58 - Table Fan Model
