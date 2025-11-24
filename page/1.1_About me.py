@@ -5,7 +5,7 @@ from pathlib import Path
 st.title("Hello there!")
 
 # Path settings
-current_dir = Path(_file_).parent if "_file_" in locals() else Path.cwd()
+current_dir = Path(__file__).parent if "_file_" in locals() else Path.cwd()
 resume_file = current_dir / "digital cv/assets/CV.pdf"
 profile_pic = current_dir / "digital cv/assets/profile-pic.jpg"
 
@@ -63,7 +63,7 @@ st.write("---")
 st.header("New Updates for 2025!")
 st.divider()
 
-# Creates two columns. You can adjust the ratio if needed, e.g., st.columns([2, 1])
+# Creates two columns. Can adjust the ratio if needed, e.g., st.columns([2, 1])
 col1, col2 = st.columns(2)
 col3, col4 = st.columns(2)
 col5, col6 = st.columns(2)
