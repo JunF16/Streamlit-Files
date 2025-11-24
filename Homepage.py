@@ -81,7 +81,7 @@ pg = st.navigation(
 )
 
 # Load and display the audio player
-audio_file = "audio/Nuvolebianche.ogg"
+audio_file = "audio/pixabay music.mp3"
 st.audio(audio_file, loop=True, autoplay=False) # autoplay=False is better for user experience
 
 # Combined Date and Time Display (Client-side)
