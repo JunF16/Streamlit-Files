@@ -51,7 +51,8 @@ VID_DIR = Path("videos")
 
 # --- Project Data (Populate this list with all your projects) ---
 PROJECT_DATA: List[Dict[str, Any]] = [
-    { "header": "Solidworks Practice 61", "subheader": "Corkscrew Model", "description": "Solidworks practice from Mahtabalam", "learn_more_link": "", "image_paths": [IMG_DIR / "Corkscrew Model.PNG"], },
+    { "header": "Solidworks Practice 62", "subheader": "Flathead Screwdriver Model", "description": "Solidworks practice from Mahtabalam", "learn_more_link": "https://www.youtube.com/watch?v=-NB-NR1_0Do&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=5", "image_paths": [IMG_DIR / "Flathead Screwdriver.PNG"], },
+    { "header": "Solidworks Practice 61", "subheader": "Corkscrew Model", "description": "Solidworks practice from Mahtabalam", "learn_more_link": "https://www.youtube.com/watch?v=Ybiu0QqShDA&list=PL6ZitbPhhYsTfuoGXgsTknh-YfSf0T4zD&index=13", "image_paths": [IMG_DIR / "Corkscrew Model.PNG"], },
     {
         "header": "Solidworks Practice 60",
         "subheader": "Plastic Organizer Assembly",
