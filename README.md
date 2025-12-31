@@ -1,6 +1,6 @@
-I created this web page as a portfolio/digital resume.
+I created this web page as an extension for my portfolio/digital resume.
 
-Streamlit was used to streamline the process in creating this web page (and copious amounts of AI).
+Streamlit was used to streamline the process in creating this web page (vibecoded).
 
 Please do not misuse any information made public on this web page.
 
