@@ -22,6 +22,8 @@ try:
     else:
         result = None  # Initialize result
         extrapolated_point = None  # Store the point to plot
+        target_x = 0.0
+        target_y = 0.0
         
         if mode == "Find y from x":
             target_x = st.number_input("Enter target x value", value=6.0)

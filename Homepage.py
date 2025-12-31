@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 from datetime import datetime, timedelta, timezone
 
 # Page setup
@@ -47,7 +48,7 @@ pg = st.navigation(
 )
 
 # Combined Date and Time Display (Client-side)
-st.components.v1.html("""
+components.html("""
 <style>
     #clock-container {
         display: flex;

@@ -1,7 +1,6 @@
 import pandas as pd
 import streamlit as st
 import plotly.express as px
-import openpyxl
 from PIL import Image
 
 st.markdown('---')
@@ -53,7 +52,7 @@ else:
 
 # Refresh the app if all options are deselected
 if not department_selection:
-    st.session_state.reset = True
+    st.session_state.reset = False
     st.rerun()
 
 # Update session state with user selections
